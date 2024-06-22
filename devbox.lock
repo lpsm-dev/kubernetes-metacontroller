@@ -1,0 +1,213 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "direnv@latest": {
+      "last_modified": "2024-06-12T20:55:33Z",
+      "resolved": "github:NixOS/nixpkgs/a9858885e197f984d92d7fe64e9fff6b2e488d40#direnv",
+      "source": "devbox-search",
+      "version": "2.34.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q71rzcnj4kpv6pp7alasws5si5dp216c-direnv-2.34.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/q71rzcnj4kpv6pp7alasws5si5dp216c-direnv-2.34.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sa20yrbns73qva4idcj895j5af04brws-direnv-2.34.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sa20yrbns73qva4idcj895j5af04brws-direnv-2.34.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f36shldnlxalh7ir5hdhmnp9qrmqgqph-direnv-2.34.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f36shldnlxalh7ir5hdhmnp9qrmqgqph-direnv-2.34.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/81cqmrlp1x77139nsx0s5jjqk6jxxxxw-direnv-2.34.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/81cqmrlp1x77139nsx0s5jjqk6jxxxxw-direnv-2.34.0"
+        }
+      }
+    },
+    "gitleaks@latest": {
+      "last_modified": "2024-06-15T16:48:02Z",
+      "resolved": "github:NixOS/nixpkgs/3027ba73dfef68eb555fc2fa97aed4e999e74f97#gitleaks",
+      "source": "devbox-search",
+      "version": "8.18.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ifc4sxqdjd4l4xkdih7h71c7bcbhaclg-gitleaks-8.18.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ifc4sxqdjd4l4xkdih7h71c7bcbhaclg-gitleaks-8.18.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w361b9j0rd1mkh3jbfvw0wcl39bxzlnv-gitleaks-8.18.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w361b9j0rd1mkh3jbfvw0wcl39bxzlnv-gitleaks-8.18.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r1p5ly8bgan9hd0bsf7lm4l8afzxq39i-gitleaks-8.18.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r1p5ly8bgan9hd0bsf7lm4l8afzxq39i-gitleaks-8.18.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m4w9l2mkc18j07j55fnda2rq94zs5zzy-gitleaks-8.18.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m4w9l2mkc18j07j55fnda2rq94zs5zzy-gitleaks-8.18.4"
+        }
+      }
+    },
+    "go-task@latest": {
+      "last_modified": "2024-06-11T07:07:27Z",
+      "resolved": "github:NixOS/nixpkgs/f7207adcc68d9cafa29e3cd252a18743ae512c6a#go-task",
+      "source": "devbox-search",
+      "version": "3.37.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sxx5qi67pni1188alq2a8vxnyliy4mpk-go-task-3.37.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sxx5qi67pni1188alq2a8vxnyliy4mpk-go-task-3.37.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6ji3xndcf45yrsrvbv3rkp789bz6rcby-go-task-3.37.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6ji3xndcf45yrsrvbv3rkp789bz6rcby-go-task-3.37.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gf9ygvd2m7v2hv3349k6q3jgk0bfqr9z-go-task-3.37.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gf9ygvd2m7v2hv3349k6q3jgk0bfqr9z-go-task-3.37.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9bswbbgd0fdbqa40yrj7f595303zbrnj-go-task-3.37.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9bswbbgd0fdbqa40yrj7f595303zbrnj-go-task-3.37.2"
+        }
+      }
+    },
+    "pre-commit@latest": {
+      "last_modified": "2024-06-18T20:33:49Z",
+      "resolved": "github:NixOS/nixpkgs/37a45fb6993f14555f50b18fbcf4945b82a35707#pre-commit",
+      "source": "devbox-search",
+      "version": "3.7.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ia6xvn1ijc45lvxa7k34dnd9nibb6mv6-pre-commit-3.7.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/2y1n6mv8fn13radpsp1laka8fc6r4phc-pre-commit-3.7.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/ia6xvn1ijc45lvxa7k34dnd9nibb6mv6-pre-commit-3.7.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0cg8s691j6x77msgyy1xyg4dhh2rn561-pre-commit-3.7.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/k3gp4fb5gwkg5cq4092xdlrasiw4qxz3-pre-commit-3.7.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/0cg8s691j6x77msgyy1xyg4dhh2rn561-pre-commit-3.7.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s9szv413173bj0ah2fwks62dvi513508-pre-commit-3.7.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/k4wnivgzmwv8czjcm8ljr43691wqp96b-pre-commit-3.7.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/s9szv413173bj0ah2fwks62dvi513508-pre-commit-3.7.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qp0myw5nnlja0dnv27ipgh25ykz682hx-pre-commit-3.7.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/yrq9x0vx2ca800ivdhz24hrhz8qkqwk8-pre-commit-3.7.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/qp0myw5nnlja0dnv27ipgh25ykz682hx-pre-commit-3.7.1"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+---
+apiVersion: metacontroller.k8s.io/v1alpha1
+kind: CompositeController
+metadata:
+  name: podservice-controller
+spec:
+  generateSelector: true
+  parentResource:
+    apiVersion: homelabz.com.br/v1
+    resource: podservices
+  childResources:
+  - apiVersion: v1
+    resource: pods
+    updateStrategy:
+      method: Recreate
+  - apiVersion: v1
+    resource: services
+    updateStrategy:
+      method: InPlace
+  hooks:
+    sync:
+      webhook:
+        url: http://podservice-controller.pocs-kubernetes-metacontroller/sync

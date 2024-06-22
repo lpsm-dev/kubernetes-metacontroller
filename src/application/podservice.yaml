@@ -1,0 +1,9 @@
+---
+apiVersion: nuageit.com.br/v1
+kind: PodService
+metadata:
+  name: nginx-podservice
+spec:
+  image: nginx:latest
+  port: 80
+  cpuReq: 30m

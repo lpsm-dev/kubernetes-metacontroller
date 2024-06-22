@@ -1,0 +1,36 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: podservice-controller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: podservice-controller
+  template:
+    metadata:
+      labels:
+        app: podservice-controller
+    spec:
+      containers:
+      - name: podservice-controller
+        image: python:3
+        command: ["python3", "/hooks/sync.py"]
+        volumeMounts:
+        - name: hooks
+          mountPath: /hooks
+      volumes:
+      - name: hooks
+        configMap:
+          name: podservice-controller
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: podservice-controller
+spec:
+  selector:
+    app: podservice-controller
+  ports:
+  - port: 80
