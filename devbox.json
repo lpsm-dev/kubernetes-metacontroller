@@ -4,7 +4,9 @@
     "direnv@latest",
     "gitleaks@latest",
     "go-task@latest",
-    "pre-commit@latest"
+    "kubectl@latest",
+    "pre-commit@latest",
+    "yamllint@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],

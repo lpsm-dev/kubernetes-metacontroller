@@ -30,3 +30,11 @@ tasks:
       msg: gitleaks {{ .PATH_ERROR }}
     cmds:
     - gitleaks detect --source={{ .ROOT_DIR }} --verbose
+
+  yamllint:
+    desc: Run a linter for all YAML files
+    preconditions:
+    - sh: which yamllint
+      msg: yamllint {{ .PATH_ERROR }}
+    cmds:
+    - yamllint --config-file={{ .ROOT_DIR }}/.github/config/.yamllint.yaml .
