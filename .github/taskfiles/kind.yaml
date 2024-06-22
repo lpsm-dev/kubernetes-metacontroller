@@ -3,14 +3,14 @@ version: 3
 
 vars:
   KIND_CLUSTER_NAME: kind-e2e-teste
-  KIND_CONFIG_PATH: "{{ .ROOT_DIR }}/.gitlab/config/kind.yaml"
+  KIND_CONFIG_PATH: "{{ .ROOT_DIR }}/.github/config/kind.yaml"
 
 tasks:
   create:
     desc: Create a Kind cluster
     preconditions:
-    - sh: test ! -n "$(kind get clusters | grep -i ${KIND_CLUSTER_NAME})"
-      msg: 'echo "kind cluster ({{ .KIND_CLUSTER_NAME }}) already exists, nothing to create. fix: task kind:destroy"'
+    - sh: test ! -n "$(kind get clusters | grep -i {{ .KIND_CLUSTER_NAME }})"
+      msg: 'echo "kind cluster ({{ .KIND_CLUSTER_NAME }}) already exists, nothing to create. to fix run `task kind:destroy`"'
     cmds:
     - |
       kind create cluster \
