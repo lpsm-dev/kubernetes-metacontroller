@@ -10,6 +10,7 @@ vars:
   PATH_ERROR: is not installed or correctly configured in PATH.
 
 includes:
+  kind: .github/taskfiles/kind.yaml
   precommit: .github/taskfiles/pre-commit.yaml
 
 tasks:
