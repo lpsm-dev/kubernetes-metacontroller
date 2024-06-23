@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img alt="contributing" src="https://github.com/lpsm-dev/lpsm-dev/blob/main/.github/assets/yoda.gif" width="225"/>
+<img alt="contributing" src="https://github.com/lpsm-dev/lpsm-dev/blob/98272299ea611ba50254b132490ea385149dc5cf/.github/assets/contributing.png" width="225"/>
 
 **Diretrizes para o processo de contribuição**
 
