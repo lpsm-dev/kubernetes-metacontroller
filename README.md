@@ -18,16 +18,30 @@ Uma demonstração simples de como criar recursos personalizados no Kubernetes c
 # Summary
 
 - [Summary](#summary)
+- [Introduction](#introduction)
 - [Overview](#overview)
+- [Metacontroller](#metacontroller)
 - [References](#references)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
 - [Troubleshooting](#troubleshooting)
 - [Show your support](#show-your-support)
 
+# Introduction
+
+O Kubernetes é uma plataforma incrível por vários motivos. Ele é excelente para orquestrar cargas de trabalho em contêineres em diferentes nós dentro de um cluster. No entanto, a verdadeira força do Kubernetes está em sua extensibilidade, que nos dá possibilidades praticamente infinitas.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Overview
 
-O Metacontroller é uma extensão do Kubernetes que facilita a criação de controladores personalizados. Ele permite que você implemente a lógica do controlador como serviços web, que são chamados pelo Metacontroller para sincronizar o estado desejado dos recursos no cluster.
+Como mencionado na introdução, o Kubernetes é uma plataforma projetada para gerenciar cargas de trabalho em contêineres em um cluster. Um dos principais componentes do Kubernetes é o Control Plane. O Control Plane é responsável por manter o "estado desejado" do sistema, que é definido pelo usuário usando arquivos YAML ou JSON. Por exemplo, um usuário pode definir um Deployment com duas réplicas, e o Control Plane garantirá que, no final, existam dois Pods em execução.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Metacontroller
+
+O Metacontroller é uma extensão do Kubernetes que simplifica a criação de controladores personalizados. Com o Metacontroller, você pode implementar a lógica do controlador como serviços web. Esses serviços são chamados pelo Metacontroller para garantir que o estado desejado dos recursos no cluster esteja sempre sincronizado com o que foi definido pelo usuário.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
