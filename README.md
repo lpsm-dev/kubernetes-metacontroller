@@ -11,7 +11,7 @@
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
 [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
 
-Este repositório contém uma demonstração simples do Kubernetes Metacontroller para criar recursos personalizados no Kubernetes. O objetivo desta demo é fornecer um exemplo prático de como usar o Metacontroller para estender as funcionalidades do Kubernetes de forma fácil e flexível.
+Uma demonstração simples do Kubernetes Metacontroller para criar recursos personalizados no Kubernetes.
 
 </div>
 
