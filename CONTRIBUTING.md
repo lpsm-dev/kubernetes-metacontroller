@@ -20,7 +20,7 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto. Ler e segu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# First Steps
+# Primeiros passos
 
 Para você entrar no nosso fluxo de trabalho, é fundamental configurar seu ambiente de trabalho local: instalar ferramentas CLI, configurar variáveis de ambiente, rodar scripts de automação e etc. Para facilitar isso, siga as etapas abaixo.
 
@@ -137,7 +137,7 @@ Se você precisar de mais detalhes sobre cada tarefa definida, verifique o arqui
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Best practices
+# Melhores Práticas
 
 - Se você não conseguir continuar uma tarefa, informe imediatamente a equipe. A comunicação rápida evita atrasos e permite que outras pessoas te ajudem a resolver os problemas mais rapidamente.
 - Não reinvente a roda. Se já existe uma solução bem estabelecida para um problema, use-a. Isso economiza tempo e recursos.
