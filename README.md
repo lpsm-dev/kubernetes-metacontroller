@@ -3,6 +3,8 @@
 
 <div align="center">
 
+<img alt="gif-header" src="https://github.com/lpsm-dev/lpsm-dev/blob/02421b0d81397fe8df3ab40e21752b8d0bb9105f/.github/assets/kubernetes.gif" width="225"/>
+
 <h1>Kubernetes Metacontroller</h1>
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://www.conventionalcommits.org/en/v1.0.0/)
