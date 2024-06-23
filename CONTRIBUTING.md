@@ -19,7 +19,7 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto. Ler e segu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Primeiros passos
+# Setup
 
 Para você entrar no nosso fluxo de trabalho, é fundamental configurar seu ambiente de trabalho local: instalar ferramentas CLI, configurar variáveis de ambiente, rodar scripts de automação e etc. Para facilitar isso, siga as etapas abaixo.
 

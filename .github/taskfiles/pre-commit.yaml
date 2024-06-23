@@ -6,7 +6,7 @@ tasks:
     desc: Initialize pre-commit hooks
     preconditions:
     - sh: which pre-commit
-      msg: kind {{ .PATH_ERROR }}
+      msg: kind {{.PATH_ERROR}}
     cmds:
     - pre-commit clean
     - pre-commit gc

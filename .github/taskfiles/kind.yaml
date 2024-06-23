@@ -3,32 +3,32 @@ version: 3
 
 vars:
   KIND_CLUSTER_NAME: kind-e2e-teste
-  KIND_CONFIG_PATH: "{{ .ROOT_DIR }}/.github/config/kind.yaml"
+  KIND_CONFIG_PATH: "{{.ROOT_DIR}}/.github/config/kind.yaml"
 
 tasks:
   create:
     desc: Create a Kind cluster
     preconditions:
-    - sh: test ! -n "$(kind get clusters | grep -i {{ .KIND_CLUSTER_NAME }})"
-      msg: 'echo "kind cluster ({{ .KIND_CLUSTER_NAME }}) already exists, nothing to create. to fix run `task kind:destroy`"'
+    - sh: test ! -n "$(kind get clusters | grep -i {{.KIND_CLUSTER_NAME}})"
+      msg: 'echo "kind cluster ({{.KIND_CLUSTER_NAME}}) already exists, nothing to create. to fix run `task kind:destroy`"'
     cmds:
     - |
       kind create cluster \
-        --name {{ .KIND_CLUSTER_NAME }} \
-        --config {{ .KIND_CONFIG_PATH }} \
+        --name {{.KIND_CLUSTER_NAME}} \
+        --config {{.KIND_CONFIG_PATH}} \
         --wait 60s
     - kubectl cluster-info
 
   destroy:
     desc: Delete the Kind cluster
     cmds:
-    - kind delete cluster --name {{ .KIND_CLUSTER_NAME }}
+    - kind delete cluster --name {{.KIND_CLUSTER_NAME}}
 
   validate:
     desc: Validate the Kind cluster
     preconditions:
-    - sh: kind get clusters | grep -i {{ .KIND_CLUSTER_NAME }}
-      msg: 'echo "kind cluster ({{ .KIND_CLUSTER_NAME }}) does not exist. to fix run `task kind:create`"'
+    - sh: kind get clusters | grep -i {{.KIND_CLUSTER_NAME}}
+      msg: 'echo "kind cluster ({{.KIND_CLUSTER_NAME}}) does not exist. to fix run `task kind:create`"'
     cmds:
     - kubectl get nodes
     - kubectl get pods --all-namespaces

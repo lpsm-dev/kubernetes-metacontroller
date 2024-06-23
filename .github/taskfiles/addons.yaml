@@ -5,8 +5,8 @@ tasks:
   init:
     desc: Initialize Kubernetes addons for the Kind cluster
     preconditions:
-    - sh: kind get clusters | grep -i {{ .KIND_CLUSTER_NAME }}
-      msg: 'echo "kind cluster ({{ .KIND_CLUSTER_NAME }}) does not exist. to fix run `task kind:create`"'
+    - sh: kind get clusters | grep -i {{.KIND_CLUSTER_NAME}}
+      msg: 'echo "kind cluster ({{.KIND_CLUSTER_NAME}}) does not exist. to fix run `task kind:create`"'
     cmds:
     - task: ingress-nginx
     - task: metacontroller
