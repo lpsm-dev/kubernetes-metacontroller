@@ -5,12 +5,12 @@ metadata:
   name: podservices.homelabz.com.br
 spec:
   group: homelabz.com.br
+  scope: Namespaced
   names:
     kind: PodService
     listKind: PodServiceList
     plural: podservices
     singular: podservice
-  scope: Namespaced
   versions:
   - name: v1
     served: true
