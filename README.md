@@ -21,6 +21,14 @@ O Metacontroller é uma extensão do Kubernetes que facilita a criação de cont
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# References
+
+Links relevantes para esse projeto:
+
+- [Metacontroller Docs](https://metacontroller.github.io/metacontroller/intro.html)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Contributing
 
 Gostaria de contribuir? Isso é ótimo! Temos um guia de contribuição para te ajudar. Clique [aqui](CONTRIBUTING.md) para lê-lo.
