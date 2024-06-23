@@ -4,7 +4,7 @@
 # Usage:
 # - Install with `asdf`: `asdf plugin add task`
 # - List available tasks with: `task --list`
-version: 3
+version: "3"
 
 vars:
   CLEAR: tput reset
