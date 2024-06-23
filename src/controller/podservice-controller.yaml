@@ -16,7 +16,15 @@ spec:
       containers:
       - name: podservice-controller
         image: python:3
+        imagePullPolicy: Always
         command: ["python3", "/hooks/sync.py"]
+        resources:
+          limits:
+            cpu: 200m
+            memory: 200Mi
+          requests:
+            cpu: 100m
+            memory: 100Mi
         volumeMounts:
         - name: hooks
           mountPath: /hooks
@@ -30,7 +38,7 @@ kind: Service
 metadata:
   name: podservice-controller
 spec:
-  selector:
-    app: podservice-controller
   ports:
   - port: 80
+  selector:
+    app: podservice-controller
