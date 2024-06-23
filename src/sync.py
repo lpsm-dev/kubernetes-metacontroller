@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 
@@ -5,7 +6,7 @@ class Controller(BaseHTTPRequestHandler):
     def sync(self, parent, children):
         desired_status = {
             "pods": len(children["Pod.v1"]),
-            "services": len(children["Service.v1"])
+            "services": len(children["Service.v1"]),
         }
 
         image = parent.get("spec", {}).get("image", "nginx:latest")
@@ -15,7 +16,7 @@ class Controller(BaseHTTPRequestHandler):
         cpu_req = parent.get("spec", {}).get("cpuReq", "10m")
         mem_req = parent.get("spec", {}).get("memReq", "32Mi")
         who = parent.get("spec", {}).get("who", "unknown")
-        
+
         desired_resources = [
             {
               "apiVersion": "v1",
@@ -23,8 +24,8 @@ class Controller(BaseHTTPRequestHandler):
               "metadata": {
                 "name": parent["metadata"]["name"],
                 "labels": {
-                    "app.kubernetes.io/name": parent["metadata"]["name"]
-                }
+                    "app.kubernetes.io/name": parent["metadata"]["name"],
+                },
               },
               "spec": {
                 "restartPolicy": "OnFailure",
@@ -34,22 +35,22 @@ class Controller(BaseHTTPRequestHandler):
                     "image": image,
                     "ports": [
                         {
-                        "containerPort": port
-                        }
+                        "containerPort": port,
+                        },
                     ],
                     "resources": {
                         "limits": {
                         "cpu": cpu_limit,
-                        "memory": mem_limit
+                        "memory": mem_limit,
                         },
                         "requests": {
                         "cpu": cpu_req,
-                        "memory": mem_req
-                        }
-                    }
-                  }
-                ]
-              }
+                        "memory": mem_req,
+                        },
+                    },
+                  },
+                ],
+              },
             },
             {
                 "apiVersion": "v1",
@@ -57,8 +58,8 @@ class Controller(BaseHTTPRequestHandler):
                 "metadata": {
                     "name": parent["metadata"]["name"],
                     "labels": {
-                        "app.kubernetes.io/name": parent["metadata"]["name"]
-                    }
+                        "app.kubernetes.io/name": parent["metadata"]["name"],
+                    },
                 },
                 "spec": {
                     "type": "ClusterIP",
@@ -67,14 +68,14 @@ class Controller(BaseHTTPRequestHandler):
                             "port": port,
                             "targetPort": port,
                             "protocol": "TCP",
-                            "name": "http"
-                        }
+                            "name": "http",
+                        },
                     ],
                     "selector": {
-                        "app.kubernetes.io/name": parent["metadata"]["name"]
-                    }
-                }
-            }
+                        "app.kubernetes.io/name": parent["metadata"]["name"],
+                    },
+                },
+            },
         ]
 
         return {"status": desired_status, "children": desired_resources}

@@ -131,7 +131,7 @@ Siga essas etapas para configurar seu ambiente:
 - Execute o comando `task` no diretório raiz do projeto para ver todos os comandos disponíveis.
 
 >>>
-Se você precisar de mais detalhes sobre cada tarefa definida, verifique o arquivo [Taskfile.yaml](Taskfile.yaml) do seu projeto. Caso não exista, crie ele seguindo o passo a passo descrito acima. 
+Se você precisar de mais detalhes sobre cada tarefa definida, verifique o arquivo [Taskfile.yaml](Taskfile.yaml) do seu projeto. Caso não exista, crie ele seguindo o passo a passo descrito acima.
 >>>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
