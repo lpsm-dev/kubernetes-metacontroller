@@ -29,7 +29,7 @@ Uma demonstração simples de como criar recursos personalizados no Kubernetes c
 
 # Introduction
 
-O Kubernetes é uma plataforma incrível por vários motivos. Ele é excelente para orquestrar cargas de trabalho em contêineres em diferentes nós dentro de um cluster. No entanto, a verdadeira força do Kubernetes está em sua extensibilidade, que nos dá possibilidades praticamente infinitas.
+O Kubernetes é uma plataforma incrível por inúmeras razões. Ele não só gerencia e organiza cargas de trabalho em contêineres distribuídas por diversos nós (nodes) em um cluster com maestria, mas sua verdadeira força reside na flexibilidade. O Kubernetes pode ser ampliado e personalizado de formas que oferecem possibilidades praticamente infinitas, permitindo que você adapte a plataforma exatamente às suas necessidades específicas. É essa capacidade de moldar o Kubernetes para atender a requisitos únicos que o torna uma ferramenta indispensável para qualquer empresa.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
