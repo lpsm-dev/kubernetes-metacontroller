@@ -49,13 +49,13 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 
 # Setup
 
-Para você entrar no nosso fluxo de trabalho, é fundamental configurar seu ambiente de trabalho local: 
+Para você começar a contribuir, é essencial configurar seu ambiente de trabalho local:
 
 - Instalar ferramentas CLI.
 - Configurar variáveis de ambiente.
 - Rodar scripts de automação e etc.
   
-Pensado nisso, elaboramos as etapas abaixo.
+Pensando nisso, elaboramos as etapas detalhadas abaixo para te guiar.
 
 > [!NOTE]  
 > Lembre-se: cada projeto tem seu próprio contexto e necessidades!
