@@ -53,9 +53,9 @@ Para você começar a contribuir, é essencial configurar seu ambiente de trabal
 
 - **Instalar ferramentas**: Certifique-se de ter instalado todas as ferramentas de linha de comando que o projeto requer.
 - **Configurar variáveis de ambiente**: Ajuste as variáveis de ambiente para garantir que seu sistema esteja preparado para rodar o projeto.
-- **Execute os scripts de automação**: Rode os scripts fornecidos para configurar dependências, inicializar bancos de dados e outras tarefas automatizadas.
+- **Executar scripts de automação**: Rode os scripts fornecidos para configurar dependências, inicializar bancos de dados e outras tarefas automatizadas.
 
-Pensando nisso, elaboramos as etapas detalhadas abaixo para te guiar.
+Pensando nisso, elaboramos as etapas abaixo para te guiar.
 
 > [!NOTE]  
 > Lembre-se: cada projeto tem seu próprio contexto e necessidades!
