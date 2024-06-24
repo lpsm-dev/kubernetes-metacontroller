@@ -31,8 +31,8 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 
 # Práticas
 
-- Se você não conseguir continuar uma tarefa, informe imediatamente a equipe. A comunicação rápida evita atrasos e permite que outras pessoas te ajudem a resolver os problemas mais rapidamente.
-- Não reinvente a roda. Se já existe uma solução bem estabelecida para um problema, use-a. Isso economiza tempo e recursos.
+- Se você não conseguir continuar uma tarefa, informe imediatamente a equipe. A comunicação rápida evita atrasos e permite que outras pessoas te ajudem a resolver os problemas com mais rapidez.
+- Não reinvente a roda. Se você pesquisou e viu que já existe uma solução bem estabelecida para a sua necessidade, use-a. Isso economiza tempo e recursos.
 - Minimize o uso de IA na comunicação diária com a equipe. Valorizamos interações reais e genuínas.
 - Trabalhando remotamente, é essencial termos uma boa comunicação por texto. Muitas vezes, seu colega de trabalho pode estar ocupado, mas ainda sim você precisa falar com ele. Para facilitar essa interação, use uma comunicação assíncrona e direta. Isso não significa ser rude, mas sim ser claro e objetivo. Para mais detalhes, clique [aqui](https://nohello.net/en/).
 
