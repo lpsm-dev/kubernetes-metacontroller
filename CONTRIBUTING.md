@@ -11,7 +11,7 @@
 
 </div>
 
-Seja bem-vindo e obrigado por considerar contribuir com este projeto. Ler e seguir estas diretrizes nos ajudará a tornar o processo de contribuição mais fácil e eficaz para todos. Ao segui-las, você mostra respeito pelo tempo que as pessoas investem gerenciando esse projeto. Em troca, faremos o possível para resolver seu problema, avaliando as alterações e ajudando-o a finalizar suas solicitações merge request.
+Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e seguir nossas diretrizes te ajudará a entrar com rapidez em nosso fluxo de trabalho, além tornar o processo de contribuição mais fácil e eficaz para todos. As contribuições são essenciais para a evolução contínua do projeto, então contamos com seu apoio!
 
 # Summary
 
@@ -21,10 +21,16 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto. Ler e segu
 
 # Setup
 
-Para você entrar no nosso fluxo de trabalho, é fundamental configurar seu ambiente de trabalho local: instalar ferramentas CLI, configurar variáveis de ambiente, rodar scripts de automação e etc. Para facilitar isso, siga as etapas abaixo.
+Para você entrar no nosso fluxo de trabalho, é fundamental configurar seu ambiente de trabalho local: 
+
+- Instalar ferramentas CLI.
+- Configurar variáveis de ambiente.
+- Rodar scripts de automação e etc.
+  
+Para facilitar isso, siga as etapas abaixo.
 
 >>>
-Lembre-se: cada projeto tem seu próprio contexto!
+Lembre-se: cada projeto tem seu próprio contexto e necessidades!
 >>>
 
 ## DevBox
