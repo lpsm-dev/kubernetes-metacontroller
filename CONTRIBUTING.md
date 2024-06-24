@@ -51,10 +51,10 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 
 Para você começar a contribuir, é essencial configurar seu ambiente de trabalho local:
 
-- Instalar ferramentas CLI.
-- Configurar variáveis de ambiente.
-- Rodar scripts de automação e etc.
-  
+- **Instalar ferramentas**: Certifique-se de ter instalado todas as ferramentas de linha de comando que o projeto requer.
+- **Configurar variáveis de ambiente**: Ajuste as variáveis de ambiente para garantir que seu sistema esteja preparado para rodar o projeto.
+- **Execute os scripts de automação**: Rode os scripts fornecidos para configurar dependências, inicializar bancos de dados e outras tarefas automatizadas.
+
 Pensando nisso, elaboramos as etapas detalhadas abaixo para te guiar.
 
 > [!NOTE]  
