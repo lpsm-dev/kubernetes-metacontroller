@@ -22,9 +22,9 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
   - [Direnv](#direnv)
   - [Task](#task)
 - [Commit Messages](#commit-messages)
-  - [`<type>`](#type)
-  - [`<scope>`](#scope)
-  - [`<description>`](#description)
+  - [Type](#type)
+  - [Scope](#scope)
+  - [Description](#description)
 - [MR Process](#mr-process)
   - [Steps](#steps)
   - [Reviewing](#reviewing)
@@ -188,7 +188,7 @@ Veja como é organizado esse formato de commits:
 [optional body]
 ```
 
-## `<type>`
+## Type
 
 Descreve o tipo de alteração do commit. Temos as seguintes opções:
 
@@ -206,7 +206,7 @@ Descreve o tipo de alteração do commit. Temos as seguintes opções:
 | **chore** | Outras alterações que não modificam arquivos de origem ou de teste. Use esse tipo ao adicionar ou atualizar dependências de desenvolvimento. |
 | **revert** | Reverte um commit anterior. |
 
-## `<scope>`
+## Scope
 
 É qualquer coisa que forneça informações adicionais ou que especifique o local de alteração do seu código. Por exemplo `events`, `kafka`, `dockerfile`, `authorization` e etc. Cada tipo (`type`) de commit pode ter um escopo (`scope`) opcional, cabendo a você adicionar ou omitir essa informação. Por exemplo:
 
@@ -218,7 +218,7 @@ feat(login): add route
 > Use a convenção [PascalCase](https://www.dio.me/articles/camel-case-vs-pascal-case) na hora de definir seu escopo (`scope`).
 >
 
-## `<description>`
+## Description
 
 É o campo onde você diz o que foi feito no commit, porém de forma breve. Para isso, recomendamos que:
 
