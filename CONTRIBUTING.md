@@ -279,7 +279,7 @@ git push origin sua-nova-branch
   - Após a mesclagem, sua branch pode ser deletada se não for mais necessária.
   - Certifique-se de executar o `git pull` na branch `main`.
 
-Seguir este processo garante que as alterações sejam revisadas adequadamente e que o código de produção permaneça estável e de alta qualidade.
+Seguir este processo garante que as alterações sejam revisadas adequadamente e que o código de produção permaneça estável e com qualidade.
 
 > [!NOTE]  
 > Se você tiver vários commits em seu PR que resolvem o mesmo problema, **squash os commits**.
