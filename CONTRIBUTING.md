@@ -176,7 +176,7 @@ Nesse projeto, exigimos que todos os commits sigam um formato específico de men
 - **Melhoria na Revisão de Código**: Proporciona uma melhor experiência de revisão de código, já que as mudanças são descritas de forma clara e padronizada.
 - **Comunicação Eficaz**: Ajuda a todos os membros da equipe a entenderem rapidamente o contexto e o propósito de cada alteração no código.
 
-Veja como é esse padrão:
+Veja como é organizado esse formato de commits:
 
 ```txt
 <type>(optional scope): <description>
