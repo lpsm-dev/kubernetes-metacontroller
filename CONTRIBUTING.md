@@ -191,17 +191,19 @@ Veja como é organizado esse formato de commits:
 
 Descreve o tipo de alteração do commit. Temos as seguintes opções:
 
-- **feat**: Um novo recurso (adição de um novo componente, fornecimento de novas variantes para um componente existente, etc.).
-- **fix**: Uma correção de bug (correção de um problema de estilo, resolução de um bug na API de um componente etc.). Ao atualizar dependências que não sejam de desenvolvimento, marque suas alterações como `fix`.
-- **docs**: Alterações somente na documentação.
-- **style**: Alterações que não afetam o significado do código (espaços em branco, formatação, falta de ponto e vírgula etc.). Não deve ser usado para alterações na interface do usuário, pois essas são alterações significativas; em vez disso, considere usar `feat` ou `fix`.
-- **refactor**: Uma alteração de código que não corrige um bug nem adiciona um recurso.
-- **perf**: Uma alteração de código que melhora o desempenho.
-- **test**: Adição de testes ausentes ou correção de testes existentes.
-- **build**: Alterações que afetam o sistema de build.
-- **ci**: Alterações em arquivos e scripts de configuração de CI/CD.
-- **chore**: Outras alterações que não modificam arquivos de origem ou de teste. Use esse tipo ao adicionar ou atualizar dependências de desenvolvimento.
-- **revert**: Reverte um commit anterior.
+| Tipo      | Descrição |
+|-----------|-----------|
+| **feat**  | Um novo recurso (adição de um novo componente, fornecimento de novas variantes para um componente existente, etc.). |
+| **fix**   | Uma correção de bug (correção de um problema de estilo, resolução de um bug na API de um componente etc.). Ao atualizar dependências que não sejam de desenvolvimento, marque suas alterações como `fix`. |
+| **docs**  | Alterações somente na documentação. |
+| **style** | Alterações que não afetam o significado do código (espaços em branco, formatação, falta de ponto e vírgula etc.). Não deve ser usado para alterações na interface do usuário, pois essas são alterações significativas; em vez disso, considere usar `feat` ou `fix`. |
+| **refactor** | Uma alteração de código que não corrige um bug nem adiciona um recurso. |
+| **perf**  | Uma alteração de código que melhora o desempenho. |
+| **test**  | Adição de testes ausentes ou correção de testes existentes. |
+| **build** | Alterações que afetam o sistema de build. |
+| **ci**    | Alterações em arquivos e scripts de configuração de CI/CD. |
+| **chore** | Outras alterações que não modificam arquivos de origem ou de teste. Use esse tipo ao adicionar ou atualizar dependências de desenvolvimento. |
+| **revert** | Reverte um commit anterior. |
 
 ## `<scope>`
 
