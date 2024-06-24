@@ -170,11 +170,11 @@ Siga essas etapas para configurar seu ambiente:
 
 Nesse projeto, exigimos que todos os commits sigam um formato específico de mensagem, o [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Com isso, conseguimos:
 
-- Clareza e Consistência: As mensagens de commit seguem um formato padrão, facilitando a leitura e a compreensão das mudanças.
-- Automatização: Permite a automação de processos, como geração de changelogs, versionamento semântico e lançamentos automáticos.
-- Rastreamento de Alterações: Facilita o rastreamento de mudanças ao longo do tempo, tornando mais fácil identificar o que foi modificado e por quê.
-- Melhoria na Revisão de Código: Proporciona uma melhor experiência de revisão de código, já que as mudanças são descritas de forma clara e padronizada.
-- Comunicação Eficaz: Ajuda a todos os membros da equipe a entenderem rapidamente o contexto e o propósito de cada alteração no código.
+- **Clareza e Consistência**: As mensagens de commit seguem um formato padrão, facilitando a leitura e a compreensão das mudanças.
+- **Automatização**: Permite a automação de processos, como geração de changelogs, versionamento semântico e lançamentos automáticos.
+- **Rastreamento de Alterações**: Facilita o rastreamento de mudanças ao longo do tempo, tornando mais fácil identificar o que foi modificado e por quê.
+- **Melhoria na Revisão de Código**: Proporciona uma melhor experiência de revisão de código, já que as mudanças são descritas de forma clara e padronizada.
+- **Comunicação Eficaz**: Ajuda a todos os membros da equipe a entenderem rapidamente o contexto e o propósito de cada alteração no código.
 
 Veja como é esse padrão:
 
