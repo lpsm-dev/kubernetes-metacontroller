@@ -247,10 +247,10 @@ git pull origin main
 git checkout -b sua-nova-branch
 ```
 
-- Trabalhe na nova branch:
-  - Realize as alterações necessárias localmente e faça commits das mudanças.
-  - Certifique-se de que seu código atenda aos padrões de qualidade estabelecidos.
-  - Garanta que seus commits sigam a convenção de commits definida pela equipe.
+- Trabalhe na branch criada:
+  - Realize as alterações necessárias e faça os commits das mudanças.
+  - Certifique-se de que seu código atenda os padrões de qualidade estabelecidos.
+  - Garanta que seus commits sigam a convenção de commits definida acima.
 
 ```bash
 git add .
@@ -263,7 +263,7 @@ git commit -m "fix: change the commit"
 git push origin sua-nova-branch
 ```
 
-- Abra uma solicitação de merge (Merge Request):
+- Abra uma solicitação de MR:
   - No GitLab, navegue até o repositório e abra uma nova Merge Request da sua branch para a branch de produção `main`.
   - Adicione uma descrição clara do que foi feito e qualquer informação relevante para a revisão.
   - Defina o título usando commits convencionais.
