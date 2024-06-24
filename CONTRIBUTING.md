@@ -15,7 +15,17 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 
 # Summary
 
-[[_TOC_]]
+- [Summary](#summary)
+- [Setup](#setup)
+  - [DevBox](#devbox)
+  - [Direnv](#direnv)
+  - [Task](#task)
+- [Melhores Práticas](#melhores-práticas)
+- [Commit Messages](#commit-messages)
+- [MR Process](#mr-process)
+  - [Steps](#steps)
+  - [Reviewing](#reviewing)
+- [Versioning Process](#versioning-process)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
