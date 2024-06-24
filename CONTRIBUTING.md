@@ -53,8 +53,8 @@ Para você entrar no nosso fluxo de trabalho, é fundamental configurar seu ambi
   
 Para facilitar isso, siga as etapas abaixo.
 
->
-Lembre-se: cada projeto tem seu próprio contexto e necessidades!
+> [!NOTE]  
+> Lembre-se: cada projeto tem seu próprio contexto e necessidades!
 >
 
 ## DevBox
