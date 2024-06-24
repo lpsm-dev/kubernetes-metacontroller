@@ -215,8 +215,7 @@ feat(login): add route
 - Não coloque a primeira letra em maiúscula.
 - Não coloque ponto (.) no final.
 
->
-> [NOTE] 📌
+> [!NOTE]  
 > Cada tipo de commit tem um efeito sobre a próxima versão que você vai lançar.
 >
 
@@ -270,8 +269,7 @@ git push origin sua-nova-branch
 
 Seguir este processo garante que as alterações sejam revisadas adequadamente e que o código de produção permaneça estável e de alta qualidade.
 
->
-> [NOTE] 📌
+> [!NOTE]  
 > Se você tiver vários commits em seu PR que resolvem o mesmo problema, **squash os commits**.
 >
 
