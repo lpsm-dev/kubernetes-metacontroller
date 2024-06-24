@@ -213,7 +213,9 @@ Descreve o tipo de alteração do commit. Temos as seguintes opções:
 feat(login): add route
 ```
 
+> [!NOTE]  
 > Use a convenção PascalCase na hora de definir seu scope.
+>
 
 ## `<description>`
 
