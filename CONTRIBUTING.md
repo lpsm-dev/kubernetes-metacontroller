@@ -142,17 +142,17 @@ direnv allow
 
 Seguindo essas etapas, quando você navegar para a pasta do seu projeto, as variáveis de ambiente serão carregadas automaticamente e o **DevBox** será inicializado.
 
->>>
-Se você precisar de mais detalhes sobre esse configuração, verifique o arquivo [.envrc](.envrc) do seu projeto.
->>>
+> [!NOTE]  
+> Se você precisar de mais detalhes sobre esse configuração, verifique o arquivo [.envrc](.envrc) do seu projeto.
+>
 
 ## Task
 
 A ferramenta **task** oferece uma maneira conveniente de definir e gerenciar tarefas específicas do projeto, facilitando a automatização de scripts comuns e simplificando os fluxos de trabalho de desenvolvimento.
 
->>>
-É semelhante à ferramenta `make`, que é utilizada principalmente para automatizar tarefas.
->>>
+> [!NOTE]  
+> É semelhante à ferramenta `make`, que é utilizada principalmente para automatizar tarefas.
+>
 
 Siga essas etapas para configurar seu ambiente:
 
@@ -160,9 +160,9 @@ Siga essas etapas para configurar seu ambiente:
   - Caso não tenha seguido, acesse a documentação do [task](https://taskfile.dev/installation/) e siga as instruções para instalá-lo.
 - Execute o comando `task` no diretório raiz do projeto para ver todos os comandos disponíveis.
 
->>>
-Se você precisar de mais detalhes sobre cada tarefa definida, verifique o arquivo [Taskfile.yaml](Taskfile.yaml) do seu projeto. Caso não exista, crie ele seguindo o passo a passo descrito acima.
->>>
+> [!NOTE]  
+> Se você precisar de mais detalhes sobre cada tarefa definida, verifique o arquivo [Taskfile.yaml](Taskfile.yaml) do seu projeto. Caso não exista, crie ele seguindo o passo a passo descrito acima.
+>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
