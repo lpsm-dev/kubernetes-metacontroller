@@ -277,7 +277,7 @@ git push origin sua-nova-branch
 
 - Finalização:
   - Após a mesclagem, sua branch pode ser deletada se não for mais necessária.
-  - Certifique-se de atualizar sua branch local `main`.
+  - Certifique-se de executar o `git pull` na branch `main`.
 
 Seguir este processo garante que as alterações sejam revisadas adequadamente e que o código de produção permaneça estável e de alta qualidade.
 
