@@ -208,19 +208,19 @@ Descreve o tipo de alteração do commit. Temos as seguintes opções:
 
 ## `<scope>`
 
-É qualquer coisa que forneça informações adicionais ou que especifique o local de alteração do seu código. Por exemplo `events`, `kafka`, `dockerfile`, `authorization`, etc. Cada tipo (`type`) de commit pode ter um escopo (`scope`) opcional, cabendo a você adicionar ou omitir essa informação. Por exemplo:
+É qualquer coisa que forneça informações adicionais ou que especifique o local de alteração do seu código. Por exemplo `events`, `kafka`, `dockerfile`, `authorization` e etc. Cada tipo (`type`) de commit pode ter um escopo (`scope`) opcional, cabendo a você adicionar ou omitir essa informação. Por exemplo:
 
 ```
 feat(login): add route
 ```
 
 > [!NOTE]  
-> Use a convenção PascalCase na hora de definir seu scope.
+> Use a convenção [PascalCase](https://www.dio.me/articles/camel-case-vs-pascal-case) na hora de definir seu escopo (`scope`).
 >
 
 ## `<description>`
 
-É você dizer o que foi feito no commit, porém de forma breve. Para isso, recomendamos que:
+É o campo onde você diz o que foi feito no commit, porém de forma breve. Para isso, recomendamos que:
 
 - Priorize descrições em inglês.
 - Use o imperativo, tempo presente: "change", não "changed" ou "changed".
@@ -228,14 +228,14 @@ feat(login): add route
 - Não coloque ponto (.) no final.
 
 > [!NOTE]  
-> Cada tipo de commit tem um efeito sobre a próxima versão que você vai lançar.
+> Cada tipo de commit tem um efeito sobre a próxima release que você for lançar.
 >
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # MR Process
 
-Ao criar MRs, é uma boa ideia seguir as convenções para o título do seu MR, assim como para as mensagens de commit. Dessa forma, se seu MR for sofrer um **squash** após a mesclagem, o maintainer poderá usar o título como a mensagem final do commit, criando um histórico devidamente formatado e mais enxuto.
+Ao criar um MR (merge request), é uma boa ideia definir o seu título seguindo a mesma convenção utilizada nas mensagens de commit. Dessa forma, se seu MR for sofrer um **squash** após a mesclagem, o maintainer poderá usar o título como a mensagem final do commit, criando um histórico formato, enxuto e linear.
 
 ## Steps
 
