@@ -55,11 +55,11 @@ Para você começar a contribuir, é essencial configurar seu ambiente de trabal
 - **Configurar variáveis de ambiente**: Ajuste as variáveis de ambiente para garantir que seu sistema esteja preparado para rodar o projeto.
 - **Executar scripts de automação**: Rode os scripts fornecidos para configurar dependências, inicializar bancos de dados e outras tarefas automatizadas.
 
-Pensando nisso, elaboramos as etapas abaixo para te guiar.
-
 > [!NOTE]  
 > Lembre-se: cada projeto tem seu próprio contexto e necessidades!
 >
+
+Pensando nisso, elaboramos as etapas abaixo para te guiar.
 
 ## DevBox
 
@@ -172,7 +172,7 @@ Siga essas etapas para configurar seu ambiente:
 
 # Commit Messages
 
-Nesse projeto, exigimos que todos os commits sigam um formato específico de mensagem, o [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Com isso, conseguimos:
+Nesse projeto, exigimos que **todos os commits** sigam um formato específico de mensagem, o [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Com isso, conseguimos:
 
 - **Clareza e Consistência**: As mensagens de commit seguem um formato padrão, facilitando a leitura e a compreensão das mudanças.
 - **Automatização**: Permite a automação de processos, como geração de changelogs, versionamento semântico e lançamentos automáticos.
