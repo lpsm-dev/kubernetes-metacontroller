@@ -16,7 +16,7 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 # Summary
 
 - [Summary](#summary)
-- [Melhores Práticas](#melhores-práticas)
+- [Práticas](#práticas)
 - [Setup](#setup)
   - [DevBox](#devbox)
   - [Direnv](#direnv)
@@ -29,7 +29,7 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Melhores Práticas
+# Práticas
 
 - Se você não conseguir continuar uma tarefa, informe imediatamente a equipe. A comunicação rápida evita atrasos e permite que outras pessoas te ajudem a resolver os problemas mais rapidamente.
 - Não reinvente a roda. Se já existe uma solução bem estabelecida para um problema, use-a. Isso economiza tempo e recursos.
