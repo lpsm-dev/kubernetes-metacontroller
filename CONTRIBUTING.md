@@ -239,7 +239,7 @@ Ao criar um MR (merge request), é uma boa ideia definir o seu título seguindo 
 
 ## Steps
 
-- Crie uma branch a partir da branch de produção `main`:
+- Crie uma branch a partir da branch `main`:
 
 ```bash
 git checkout main
