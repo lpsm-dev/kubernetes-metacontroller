@@ -59,11 +59,11 @@ Para facilitar isso, siga as etapas abaixo.
 
 ## DevBox
 
-O **DevBox** é uma ferramenta CLI que cria ambientes de desenvolvimento isolados e reproduzíveis, sem precisar usar containers Docker ou a linguagem Nix.
+O **DevBox** é uma ferramenta CLI que cria ambientes de desenvolvimento isolados e reproduzíveis, sem precisar usar containers Docker ou a linguagem Nix de forma nativa.
 
->>>
-Use essa opção se você não quiser instalar muitas ferramentas CLI diretamente no seu ambiente de trabalho.
->>>
+> [!NOTE]  
+> Use essa opção se você não quiser instalar muitas ferramentas CLI diretamente em seu ambiente de trabalho.
+>
 
 Siga essas etapas para configurar seu ambiente:
 
@@ -79,7 +79,7 @@ curl -fsSL <https://get.jetpack.io/devbox> | bash
 devbox init
 ```
 
-- Adicione os pacotes que deseja (pode mudar de projeto para projeto). Ex:
+- Adicione os pacotes que deseja (vai mudar de projeto para projeto). Ex:
 
 ```json
 {
@@ -108,11 +108,11 @@ devbox init
 devbox shell
 ```
 
-Com isso, podemos garantir que todos no projeto tenham as mesmas ferramentas, nas mesmas versões, que forem necessárias para o processo de desenvolvimento.
+Com isso, podemos garantir que todos no projeto tenham as mesmas ferramentas nas mesmas versões, necessárias para o processo de desenvolvimento.
 
->>>
-Se você precisar de mais detalhes sobre essa configuração, verifique o arquivo [devbox.json](devbox.json) do seu projeto. Caso não exista, crie ele seguindo o passo a passo descrito acima.
->>>
+> [!NOTE]  
+> Se você precisar de mais detalhes sobre essa configuração, verifique o arquivo [devbox.json](devbox.json) do seu projeto. Caso não exista, crie ele seguindo o passo a passo descrito acima.
+>
 
 ## Direnv
 
