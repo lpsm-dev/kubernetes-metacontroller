@@ -11,7 +11,7 @@
 
 </div>
 
-Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e seguir nossas diretrizes te ajudará a entrar com rapidez em nosso fluxo de trabalho, além tornar o processo de contribuição mais fácil e eficaz para todos. As contribuições são essenciais para a evolução contínua do projeto, então contamos com seu apoio!
+Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e seguir nossas diretrizes vai te ajudar a entrar com mais rapidez em nosso fluxo de trabalho, além tornar o processo de contribuição mais fácil e eficaz para todos. Contamos com seu apoio!
 
 # Summary
 
