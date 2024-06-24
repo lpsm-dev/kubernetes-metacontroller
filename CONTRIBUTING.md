@@ -11,7 +11,7 @@
 
 </div>
 
-Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e seguir nossas diretrizes vai te ajudar a entrar com mais rapidez em nosso fluxo de trabalho, além tornar o processo de contribuição mais fácil e eficaz para todos. Contamos com seu apoio!
+Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e seguir nossas diretrizes vai te ajudar a entrar com mais rapidez em nosso fluxo de trabalho, além tornar o processo de contribuição mais fácil e eficaz. Contamos com seu apoio!
 
 # Summary
 
@@ -37,12 +37,13 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 **Geral**
 
 - Se você não conseguir continuar uma tarefa, informe imediatamente sua equipe. A comunicação rápida evita atrasos e permite que outras pessoas te ajudem a resolver os problemas com mais rapidez.
-- Não reinvente a roda. Se você pesquisou e viu que já existe uma solução bem estabelecida para a sua necessidade, use-a. Isso economiza tempo e recursos.
+- Não reinvente a roda. Se você pesquisou e viu que já existe uma solução bem estabelecida para o seu problema, use-a. Isso economiza tempo e recurso.
 
 **Comunicação**
 
 - Minimize o uso de IA na comunicação diária com a equipe. Valorizamos interações reais e genuínas.
-- Trabalhando remotamente, é essencial termos uma boa comunicação por texto. Muitas vezes, seu colega de trabalho pode estar ocupado, mas ainda sim você precisa falar com ele. Para facilitar essa interação, use uma comunicação assíncrona e direta. Isso não significa ser rude, mas sim ser claro e objetivo. Para mais detalhes, clique [aqui](https://nohello.net/en/).
+- Seja objetivo na sua comunição quando precisa de ajuda (isso não significa ser rude rsrs). 
+- A comunicação assíncrona é uma grande aliada para equipes remotas. Para mais detalhes, clique [aqui](https://nohello.net/en/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
