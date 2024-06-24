@@ -33,7 +33,7 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 
 **Geral**
 
-- Se você não conseguir continuar uma tarefa, informe imediatamente a equipe. A comunicação rápida evita atrasos e permite que outras pessoas te ajudem a resolver os problemas com mais rapidez.
+- Se você não conseguir continuar uma tarefa, informe imediatamente sua equipe. A comunicação rápida evita atrasos e permite que outras pessoas te ajudem a resolver os problemas com mais rapidez.
 - Não reinvente a roda. Se você pesquisou e viu que já existe uma solução bem estabelecida para a sua necessidade, use-a. Isso economiza tempo e recursos.
 
 **Comunicação**
@@ -168,17 +168,15 @@ Siga essas etapas para configurar seu ambiente:
 
 # Commit Messages
 
-Nesse projeto, exigimos que todos os commits sigam um formato específico de mensagem. Isso torna mais fácil para qualquer pessoa que contribua ao projeto, possa ler o histórico de commits e entender as alterações feitas ao longo do tempo.
+Nesse projeto, exigimos que todos os commits sigam um formato específico de mensagem, o [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Com isso, conseguimos facilitar a leitura do histórico de commits, a compreensão das mudanças feitas ao longo do tempo por qualquer pessoa que contribua e automatizar o processo de release.
 
-Veja como isso funciona:
+Veja como é esse padrão:
 
-```
+```txt
 <type>(optional scope): <description>
 
 [optional body]
 ```
-
-Esse formato é baseado no [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Consulte a documentação para obter mais detalhes.
 
 `<type>`
 
