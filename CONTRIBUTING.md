@@ -55,7 +55,7 @@ Para você entrar no nosso fluxo de trabalho, é fundamental configurar seu ambi
 - Configurar variáveis de ambiente.
 - Rodar scripts de automação e etc.
   
-Para facilitar isso, siga as etapas abaixo.
+Pensado nisso, elaboramos as etapas abaixo.
 
 > [!NOTE]  
 > Lembre-se: cada projeto tem seu próprio contexto e necessidades!
