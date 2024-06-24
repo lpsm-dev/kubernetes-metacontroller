@@ -207,7 +207,7 @@ Descreve o tipo de alteração do commit. Temos as seguintes opções:
 
 ## `<scope>`
 
-É qualquer coisa que forneça informações adicionais ou que especifique o local de alteração do seu código. Por exemplo `events`, `kafka`, `dockerfile`, `authorization`, etc. Cada tipo (type) de commit pode ter um escopo (scope) opcional, cabendo a você adicionar ou omitir essa informação. Por exemplo:
+É qualquer coisa que forneça informações adicionais ou que especifique o local de alteração do seu código. Por exemplo `events`, `kafka`, `dockerfile`, `authorization`, etc. Cada tipo (`type`) de commit pode ter um escopo (`scope`) opcional, cabendo a você adicionar ou omitir essa informação. Por exemplo:
 
 ```
 feat(login): add route
