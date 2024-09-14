@@ -20,7 +20,6 @@ Uma demonstração simples de como criar recursos personalizados no Kubernetes c
 - [Summary](#summary)
 - [Introduction](#introduction)
 - [Overview](#overview)
-- [Metacontroller](#metacontroller)
 - [References](#references)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
