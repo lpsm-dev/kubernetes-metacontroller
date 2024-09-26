@@ -43,6 +43,7 @@ O Metacontroller é uma extensão do Kubernetes que simplifica a criação de co
 Links relevantes para esse projeto:
 
 - [Metacontroller Docs](https://metacontroller.github.io/metacontroller/intro.html)
+- [What is a Kubernetes Controller?](https://book-v1.book.kubebuilder.io/basics/what_is_a_controller.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
