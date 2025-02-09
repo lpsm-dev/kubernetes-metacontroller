@@ -116,6 +116,18 @@ O **Metacontroller** é um componente que simplifica a implementação de **cont
 - Permite o uso de qualquer linguagem para a lógica de controle
 - Funciona como um intermediário entre o Kubernetes e os webhooks
 
+## Tipos de Metacontrollers
+
+O Metacontroller oferece diferentes tipos de controladores que podem ser utilizados dependendo do caso de uso:
+
+**CompositeController**
+
+Permite definir objetos "pai" que gerenciam um conjunto de objetos "filho". Útil para criar abstrações que agrupam múltiplos recursos. Exemplo: Criar um **Application CRD** que gera automaticamente Deployments, Services e ConfigMaps associados.
+
+**DecoratorController**
+
+Modifica objetos existentes ao adicionar novos recursos sem alterar sua definição original. Adicionar sidecars automaticamente a todos os pods que correspondem a um critério.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Referências
