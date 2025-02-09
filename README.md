@@ -22,9 +22,11 @@ Pronto para derrubar um cluster Kubernetes? 🤡 hahaha
 <details>
   <summary><strong>Expandir</strong></summary>
 
-- [Visão Geral](#introduction)
-- [Overview](#overview)
-- [References](#references)
+- [Visão Geral](#visão-geral)
+  - [Objetivo](#objetivo)
+  - [Contexto e Motivação](#contexto-e-motivação)
+- [Tecnologias](#tecnologias)
+- [Metacontroller](#metacontroller)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
 - [Troubleshooting](#troubleshooting)
@@ -59,13 +61,23 @@ Para a implementação desse projeto, foram utilizadas as seguintes tecnologias:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Metacontroller
+# Entendendo
+
+## Controladores no Kubernetes
+
+Controladores são loops que observam o estado do cluster através da API do Kubernetes e fazem alterações para mover o estado atual para o estado desejado. Eles são a principal forma de estender o Kubernetes e implementar lógica personalizada para gerenciar recursos.
+
+## Custom Resource Definitions (CRDs)
+
+As Custom Resource Definitions (CRDs) permitem que você defina recursos personalizados no Kubernetes. Eles são uma extensão do Kubernetes que permite que você adicione novos tipos de recursos ao cluster. Os CRDs são a base para a criação de controladores personalizados.
+
+## Metacontroller
 
 O Metacontroller é uma extensão do Kubernetes que simplifica a criação de controladores personalizados. Com o Metacontroller, você pode implementar a lógica do controlador como serviços web. Esses serviços são chamados pelo Metacontroller para garantir que o estado desejado dos recursos no cluster esteja sempre sincronizado com o que foi definido pelo usuário.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# References
+# Referências
 
 Links relevantes para esse projeto:
 
