@@ -9,7 +9,7 @@
 
 Hello Human 👽! Bem-vindo ao meu repositório 👋
 
-Pronto para derrubar um cluster Kubernetes? 🤡
+Pronto para derrubar um cluster Kubernetes? 🤡 hahaha
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://www.conventionalcommits.org/en/v1.0.0/)
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
@@ -38,7 +38,9 @@ Pronto para derrubar um cluster Kubernetes? 🤡
 
 ## Objetivo
 
-Esse repositório apresenta um exemplo prático de como eu criei um controlador personalizado no Kubernetes utilizando a ferramenta Metacontroller. Minha proposta foi colocar a mão na massa criando esse controlador e documentar o processo para facilitar a compreensão de como o Metacontroller funciona e como ele pode ser utilizado para estender as funcionalidades do Kubernetes.
+Deixando as brincadeiras de lado, nesse repositório apresento a vocês um exemplo prático de como eu criei um controlador personalizado no Kubernetes utilizando a ferramenta Metacontroller.
+
+Minha proposta foi colocar a mão na massa criando esse controlador e documentar o processo para facilitar a compreensão de como o Metacontroller funciona e como ele pode ser utilizado para estender as funcionalidades do Kubernetes.
 
 ## Contexto e Motivação
 
