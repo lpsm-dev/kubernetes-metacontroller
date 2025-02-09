@@ -26,7 +26,7 @@ Pronto para derrubar um cluster Kubernetes? 🤡 hahaha
   - [Objetivo](#objetivo)
   - [Contexto e Motivação](#contexto-e-motivação)
 - [Tecnologias](#tecnologias)
-- [Metacontroller](#metacontroller)
+- [Entendendo](#entendendo)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
 - [Troubleshooting](#troubleshooting)
