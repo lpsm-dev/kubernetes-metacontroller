@@ -84,7 +84,7 @@ Siga essas etapas para configurar seu ambiente:
 - Instale o [devbox](https://www.jetify.com/devbox/docs/installing_devbox/):
 
 ```bash
-curl -fsSL <https://get.jetpack.io/devbox> | bash
+curl -fsSL https://get.jetpack.io/devbox | bash
 ```
 
 - Inicialize seu projeto:
@@ -220,7 +220,7 @@ feat(login): add route
 É o campo onde você diz o que foi feito no commit, porém de forma breve. Para isso, recomendamos que:
 
 - Priorize descrições em inglês.
-- Use o imperativo, tempo presente: "change", não "changed" ou "changed".
+- Use o imperativo, tempo presente: "change", não "changed" ou "changing".
 - Não coloque a primeira letra em maiúscula.
 - Não coloque ponto (.) no final.
 
@@ -302,9 +302,9 @@ Durante o processo de revisão do MR, siga essas políticas:
 
 Esse projeto segue a especificação [SemVer](https://semver.org/). Ou seja, utilizamos um sistema de versionamento semântico para controlar as versões do projeto. Isso nos ajuda a comunicar melhor as mudanças feitas no código e a garantir a compatibilidade entre as versões. Esse sistema é composto por três números (`x.x.x`), que representam respectivamente:
 
-1. **Major**: Quando fazemos alterações incompatíveis com a versão atual.
-2. **Minor**: Quando adicionamos funcionalidades de forma compatível com a versão atual.
-3. **Patch**: Quando corrigimos bugs de forma compatível com a versão atual.
+1. **Major**: Quando fazemos alterações incompatíveis com a versão atual. Ex: `1.2.0 → 2.0.0`
+2. **Minor**: Quando adicionamos funcionalidades de forma compatível com a versão atual. Ex: `1.2.0 → 1.3.0`
+3. **Patch**: Quando corrigimos bugs de forma compatível com a versão atual. Ex: `1.2.0 → 1.2.1`
 
 Nós usamos o [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) para automatizar esse processo de versionamento. Ele analisa os commits desde a última versão e determina automaticamente o próximo número da versão com base nas alterações feitas. Isso garante que as versões sejam consistentes e sigam as regras do SemVer.
 
