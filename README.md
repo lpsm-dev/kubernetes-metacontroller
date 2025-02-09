@@ -63,17 +63,58 @@ Para a implementação desse projeto, foram utilizadas as seguintes tecnologias:
 
 # Entendendo
 
-## Controladores no Kubernetes
+## O que são Controladores no Kubernetes?
 
-Controladores são loops que observam o estado do cluster através da API do Kubernetes e fazem alterações para mover o estado atual para o estado desejado. Eles são a principal forma de estender o Kubernetes e implementar lógica personalizada para gerenciar recursos.
+Controladores são loops que observam o estado do cluster através da API do Kubernetes e realizam ações para alinhar o estado atual ao estado desejado. Eles são essenciais para a automação e extensibilidade do Kubernetes. Exemplos de controladores nativos incluem:
 
-## Custom Resource Definitions (CRDs)
+- **Deployments**: Garante que um conjunto de pods esteja sempre em execução.
+- **StatefulSets**: Gerencia aplicações stateful com identidade persistente.
+- **Horizontal Pod Autoscaler (HPA)**: Ajusta automaticamente o número de réplicas de pods com base na carga de CPU ou outras métricas.
 
-As Custom Resource Definitions (CRDs) permitem que você defina recursos personalizados no Kubernetes. Eles são uma extensão do Kubernetes que permite que você adicione novos tipos de recursos ao cluster. Os CRDs são a base para a criação de controladores personalizados.
+## O que são Custom Resource Definitions (CRDs)?
+
+Os **Custom Resource Definitions (CRDs)** permitem que os usuários definam novos tipos de recursos no Kubernetes, expandindo sua API sem modificar o código-fonte do Kubernetes. Eles são a base para a criação de controladores personalizados, pois possibilitam a adição de novos objetos específicos ao cluster.
+
+Como ele funciona?
+
+- Você cria um CRD para definir um novo tipo de recurso (exemplo: `MyCustomResource`).
+- O Kubernetes passa a reconhecer esse recurso e permite que ele seja gerenciado via `kubectl`, API e operadores.
+- Um controlador personalizado pode ser implementado para monitorar e agir sobre esse novo recurso.
+
+```yaml
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: widgets.example.com
+spec:
+  group: example.com
+  versions:
+    - name: v1
+      served: true
+      storage: true
+  scope: Namespaced
+  names:
+    plural: widgets
+    singular: widget
+    kind: Widget
+```
 
 ## Metacontroller
 
-O Metacontroller é uma extensão do Kubernetes que simplifica a criação de controladores personalizados. Com o Metacontroller, você pode implementar a lógica do controlador como serviços web. Esses serviços são chamados pelo Metacontroller para garantir que o estado desejado dos recursos no cluster esteja sempre sincronizado com o que foi definido pelo usuário.
+O **Metacontroller** é um componente que simplifica a implementação de **controladores personalizados** sem exigir o desenvolvimento completo de um controlador em `Go` usando o `client-go`. Em vez disso, ele permite que os desenvolvedores criem controladores como **webhooks**, podendo ser escritos em qualquer linguagem que suporte HTTP, como `Python`, `Node.js` ou `Bash`.
+
+Como ele funciona?
+
+- O Metacontroller monitora recursos no Kubernetes.
+- Quando há mudanças, ele aciona um webhook definido pelo usuário.
+- O webhook responde informando como o estado desejado deve ser ajustado.
+- O Metacontroller aplica essas mudanças automaticamente no cluster.
+
+Entre seus principais benefícios, podemos destacar:
+
+- Reduz a complexidade do desenvolvimento de controladores personalizados
+- Permite o uso de qualquer linguagem para a lógica de controle
+- Funciona como um intermediário entre o Kubernetes e os webhooks
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
