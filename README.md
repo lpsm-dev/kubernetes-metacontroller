@@ -5,8 +5,6 @@
 
 <img alt="header" src="https://github.com/lpsm-dev/lpsm-dev/blob/02421b0d81397fe8df3ab40e21752b8d0bb9105f/.github/assets/kubernetes.gif" width="300"/>
 
-## Kubernetes Metacontroller
-
 Hello Human 👽! Bem-vindo ao meu repositório 👋
 
 Pronto para derrubar um cluster Kubernetes? 🤡 hahaha
