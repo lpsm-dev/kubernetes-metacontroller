@@ -12,7 +12,7 @@
 
 </div>
 
-Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e seguir nossas diretrizes vai te ajudar a entrar com mais rapidez em nosso fluxo de trabalho, além tornar o processo de contribuição mais fácil e eficaz. Contamos com seu apoio!
+Obrigado por considerar contribuir com este projeto! Seguir nossas diretrizes facilitará seu onboarding e tornará sua colaboração mais eficaz.
 
 # Sumário
 
@@ -44,12 +44,12 @@ Seja bem-vindo e obrigado por considerar contribuir com este projeto! Ler e segu
 
 # Práticas
 
-**Geral**
+## Geral
 
 - Se você não conseguir continuar uma tarefa, informe imediatamente sua equipe. A comunicação rápida evita atrasos e permite que outras pessoas te ajudem a resolver os problemas com mais rapidez.
 - Não reinvente a roda. Se você pesquisou e viu que já existe uma solução bem estabelecida para o seu problema, use-a. Isso economiza tempo e recurso.
 
-**Comunicação**
+## Comunicação
 
 - Minimize o uso de IA na comunicação diária com a equipe. Valorizamos interações reais e genuínas.
 - Seja objetivo na sua comunição quando precisa de ajuda (isso não significa ser rude rsrs).
