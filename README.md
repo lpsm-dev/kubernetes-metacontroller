@@ -134,7 +134,7 @@ A partir de agora, vamos explorar a implementação prática de um controlador p
 
 A arquitetura do projeto é:
 
-```yaml
+```mermaid
 graph TD;
 A[Custom Resource (CR)] -->|Detectado pelo Metacontroller| B[Webhook (sync)]
 B -->|Recebe requisição com estado atual| C[Processa lógica no Webhook]
