@@ -128,6 +128,21 @@ Permite definir objetos "pai" que gerenciam um conjunto de objetos "filho". Úti
 
 Modifica objetos existentes ao adicionar novos recursos sem alterar sua definição original. Adicionar sidecars automaticamente a todos os pods que correspondem a um critério.
 
+# Conclusão
+
+Use o Metacontroller, quando:
+
+- Você deseja criar um controlador personalizado sem escrever um controlador em Go.
+- Você quer escrever a lógica do controlador em Python, Node.js ou qualquer linguagem que suporte webhooks.
+- Você precisa estender recursos já existentes sem modificar sua estrutura diretamente.
+
+Não use o Metacontroller, quando:
+
+- Você precisa de controladores com lógica muito complexa e de alta performance (Go pode ser mais eficiente).
+- Você tem necessidade de interação intensiva com a API do Kubernetes.
+
+No geral, o Metacontroller é uma ferramenta poderosa para simplificar o desenvolvimento de controladores personalizados no Kubernetes, permitindo que você se concentre na lógica de controle em vez de se preocupar com a complexidade da API do Kubernetes.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Referências
