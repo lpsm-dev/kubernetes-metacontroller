@@ -128,6 +128,16 @@ Permite definir objetos "pai" que gerenciam um conjunto de objetos "filho". Úti
 
 Modifica objetos existentes ao adicionar novos recursos sem alterar sua definição original. Adicionar sidecars automaticamente a todos os pods que correspondem a um critério.
 
+## Metacontroller vs. Operadores Tradicionais
+
+| Característica                  | Metacontroller       | Operadores com client-go              |
+| ------------------------------- | -------------------- | ------------------------------------- |
+| **Facilidade de implementação** | Alta (webhooks)      | Média (Go, client-go)                 |
+| **Linguagem suportada**         | Qualquer linguagem   | Principalmente Go                     |
+| **Flexibilidade**               | Alta                 | Média                                 |
+| **Integração com Kubernetes**   | Boa                  | Boa                                   |
+| **Uso recomendado**             | Casos simples/médios | Casos complexos e performance crítica |
+
 # Arquitetura
 
 A partir de agora, vou de fato ir para a implementação prática do controlador personalizado usando o Metacontroller. Para isso, vamos criar um exemplo simples de um controlador que gerencia um recurso personalizado chamado `PodService`. Esse recurso é uma abstraction que combina um Pod e um Service, permitindo que você defina ambos em um único objeto.
