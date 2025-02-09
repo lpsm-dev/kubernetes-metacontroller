@@ -285,11 +285,12 @@ Seguir este processo garante que as alterações sejam revisadas adequadamente e
 Durante o processo de revisão do MR, siga essas políticas:
 
 - Seja respeitoso e construtivo.
-- Sempre realize a revisão em pares.
+- Busque realizar um code review completo, verificando a lógica, a qualidade do código e a conformidade com os padrões estabelecidos.
 - Sugira alterações em vez de simplesmente comentar os problemas encontrados.
 - Exigimos pelo menos um aprovador no MR, que não seja o autor.
 - Se não tiver certeza sobre algo, pergunte ao autor do MR.
 - Se você estiver satisfeito com as alterações, aprove o MR.
+- Preze por pair programming, sempre que possível.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
