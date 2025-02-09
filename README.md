@@ -128,6 +128,35 @@ Permite definir objetos "pai" que gerenciam um conjunto de objetos "filho". Úti
 
 Modifica objetos existentes ao adicionar novos recursos sem alterar sua definição original. Adicionar sidecars automaticamente a todos os pods que correspondem a um critério.
 
+# Arquitetura
+
+A partir de agora, vamos explorar a implementação prática de um controlador personalizado no Kubernetes usando o Metacontroller. Para isso, vamos criar um exemplo simples de um controlador que gerencia um recurso personalizado chamado `PodService`, que cria um Pod e um Service associado.
+
+A arquitetura do projeto é:
+
+```yaml
+graph TD;
+A[Custom Resource (CR)] -->|Detectado pelo Metacontroller| B[Webhook (sync)]
+B -->|Recebe requisição com estado atual| C[Processa lógica no Webhook]
+C -->|Define estado desejado| D{Quais recursos devem ser gerenciados?}
+
+D -->|Criar Pod| E[Definir Pod com imagem, portas e recursos]
+D -->|Criar Service| F[Definir Service com porta e selector]
+
+E -->|Adicionar ao estado desejado| G[Retorna resposta JSON para o Metacontroller]
+F -->|Adicionar ao estado desejado| G
+
+G -->|Aplica mudanças| H[Kubernetes cria ou atualiza recursos]
+H -->|Estado atualizado| I[Aplicação rodando conforme especificado]
+
+style B fill:#f9f,stroke:#333,stroke-width:2px;
+style C fill:#fdd,stroke:#333,stroke-width:2px;
+style D fill:#ff9,stroke:#333,stroke-width:2px;
+style H fill:#bff,stroke:#333,stroke-width:2px;
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Conclusão
 
 Use o Metacontroller, quando:
