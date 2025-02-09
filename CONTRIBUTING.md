@@ -295,7 +295,13 @@ Durante o processo de revisão do MR, siga essas políticas:
 
 # Versioning Process
 
-Este projeto segue a especificação [SemVer](https://semver.org/). Consulte a documentação para obter mais detalhes.
+Esse projeto segue a especificação [SemVer](https://semver.org/). Ou seja, quando geramos uma nova versão, atualizamos o número da versão de acordo com essas regras:
+
+1. **Major**: Quando fazemos alterações incompatíveis com a versão atual.
+2. **Minor**: Quando adicionamos funcionalidades de forma compatível com a versão atual.
+3. **Patch**: Quando corrigimos bugs de forma compatível com a versão atual.
+
+Nós usamos o [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) para automatizar o processo de versionamento. Ele analisa os commits desde a última versão e determina automaticamente o próximo número da versão com base nas alterações feitas.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- END_DOCS -->
