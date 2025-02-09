@@ -301,9 +301,12 @@ Esse projeto segue a especificação [SemVer](https://semver.org/). Ou seja, uti
 2. **Minor**: Quando adicionamos funcionalidades de forma compatível com a versão atual.
 3. **Patch**: Quando corrigimos bugs de forma compatível com a versão atual.
 
-Nós usamos o [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) para automatizar o processo de versionamento. Ele analisa os commits desde a última versão e determina automaticamente o próximo número da versão com base nas alterações feitas. Isso garante que as versões sejam consistentes e sigam as regras do SemVer.
+Nós usamos o [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) para automatizar esse processo de versionamento. Ele analisa os commits desde a última versão e determina automaticamente o próximo número da versão com base nas alterações feitas. Isso garante que as versões sejam consistentes e sigam as regras do SemVer.
 
 Vale ressaltar que o Semantic Release é acionado automaticamente quando um MR é mesclado na branch `main` ou quando existe um commit direto na branch `main`. Portanto, é importante seguir as convenções de commit para garantir que as versões sejam geradas corretamente.
+
+> [!NOTE]
+> O Semantic Release é um ferramental poderoso, e possui um sistema de plugins que podem ser configurados para atender as necessidades específicas do projeto. Para mais detalhes, consulte a [documentação oficial](https://semantic-release.gitbook.io/semantic-release/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- END_DOCS -->
