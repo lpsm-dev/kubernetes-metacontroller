@@ -295,9 +295,7 @@ Durante o processo de revisão do MR, siga essas políticas:
 
 # Versioning Process
 
-Esse projeto segue a especificação [SemVer](https://semver.org/). Ou seja, utilizamos um sistema de versionamento semântico para controlar as versões do projeto. Isso nos ajuda a comunicar melhor as mudanças feitas no código e a garantir a compatibilidade entre as versões.
-
-Esse sistema é composto por três números (`x.x.x`), que representam respectivamente:
+Esse projeto segue a especificação [SemVer](https://semver.org/). Ou seja, utilizamos um sistema de versionamento semântico para controlar as versões do projeto. Isso nos ajuda a comunicar melhor as mudanças feitas no código e a garantir a compatibilidade entre as versões. Esse sistema é composto por três números (`x.x.x`), que representam respectivamente:
 
 1. **Major**: Quando fazemos alterações incompatíveis com a versão atual.
 2. **Minor**: Quando adicionamos funcionalidades de forma compatível com a versão atual.
