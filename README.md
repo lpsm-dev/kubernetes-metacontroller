@@ -221,8 +221,10 @@ kubectl get pods,svc -n pocs-kubernetes-metacontroller
 7. **Limpeza**
 
 ```bash
-
+task kind:destroy
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Conclusão
 
