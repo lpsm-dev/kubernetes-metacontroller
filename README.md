@@ -22,15 +22,31 @@ Pronto para derrubar um cluster Kubernetes? 🤡 hahaha
 <details>
   <summary><strong>Expandir</strong></summary>
 
-- [Visão Geral](#visão-geral)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Visão Geral](#vis%C3%A3o-geral)
   - [Objetivo](#objetivo)
-  - [Contexto e Motivação](#contexto-e-motivação)
+  - [Contexto e Motivação](#contexto-e-motiva%C3%A7%C3%A3o)
 - [Tecnologias](#tecnologias)
 - [Entendendo](#entendendo)
+  - [O que são Controladores no Kubernetes?](#o-que-s%C3%A3o-controladores-no-kubernetes)
+  - [O que são Custom Resource Definitions (CRDs)?](#o-que-s%C3%A3o-custom-resource-definitions-crds)
+  - [Metacontroller](#metacontroller)
+  - [Tipos de Metacontrollers](#tipos-de-metacontrollers)
+  - [Metacontroller vs. Operadores Tradicionais](#metacontroller-vs-operadores-tradicionais)
+- [Arquitetura](#arquitetura)
+- [Implementação](#implementa%C3%A7%C3%A3o)
+  - [Pré-requisitos](#pr%C3%A9-requisitos)
+  - [Passo a Passo](#passo-a-passo)
+- [Conclusão](#conclus%C3%A3o)
+- [Referências](#refer%C3%AAncias)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
 - [Troubleshooting](#troubleshooting)
 - [Show your support](#show-your-support)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
