@@ -15,7 +15,6 @@ class Controller(BaseHTTPRequestHandler):
         mem_limit = parent.get("spec", {}).get("memLimit", "64Mi")
         cpu_req = parent.get("spec", {}).get("cpuReq", "10m")
         mem_req = parent.get("spec", {}).get("memReq", "32Mi")
-        who = parent.get("spec", {}).get("who", "unknown")
 
         desired_resources = [
             {
@@ -81,7 +80,12 @@ class Controller(BaseHTTPRequestHandler):
         return {"status": desired_status, "children": desired_resources}
 
     def do_POST(self):
-        observed = json.loads(self.rfile.read(int(self.headers.get("content-length"))))
+        content_length = self.headers.get("content-length")
+        if content_length is None:
+            self.send_response(400)
+            self.end_headers()
+            return
+        observed = json.loads(self.rfile.read(int(content_length)))
         desired = self.sync(observed["parent"], observed["children"])
         self.send_response(200)
         self.send_header("Content-type", "application/json")

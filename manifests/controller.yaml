@@ -9,14 +9,14 @@ spec:
     apiVersion: homelabz.com.br/v1
     resource: podservices
   childResources:
-  - apiVersion: v1
-    resource: pods
-    updateStrategy:
-      method: Recreate
-  - apiVersion: v1
-    resource: services
-    updateStrategy:
-      method: InPlace
+    - apiVersion: v1
+      resource: pods
+      updateStrategy:
+        method: Recreate
+    - apiVersion: v1
+      resource: services
+      updateStrategy:
+        method: InPlace
   hooks:
     sync:
       webhook:

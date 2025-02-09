@@ -12,29 +12,29 @@ spec:
     plural: podservices
     singular: podservice
   versions:
-  - name: v1
-    served: true
-    storage: true
-    schema:
-      openAPIV3Schema:
-        type: object
-        properties:
-          spec:
-            type: object
-            properties:
-              image:
-                type: string
-              port:
-                type: integer
-              cpuLimit:
-                type: string
-              memLimit:
-                type: string
-              cpuReq:
-                type: string
-              memReq:
-                type: string
-            required:
-            - image
-    subresources:
-      status: {}
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                image:
+                  type: string
+                port:
+                  type: integer
+                cpuLimit:
+                  type: string
+                memLimit:
+                  type: string
+                cpuReq:
+                  type: string
+                memReq:
+                  type: string
+              required:
+                - image
+      subresources:
+        status: {}

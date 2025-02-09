@@ -54,10 +54,13 @@ O Kubernetes é uma plataforma incrível por inúmeras razões. Ele não só ger
 
 Para a implementação desse projeto, foram utilizadas as seguintes tecnologias:
 
-- [Kubernetes](https://kubernetes.io/)
+- [Docker](https://docs.docker.com/get-docker/)
 - [Kind](https://kind.sigs.k8s.io/)
+- [Kubernetes](https://kubernetes.io/)
 - [Metacontroller](https://metacontroller.github.io/metacontroller/intro.html)
 - [Python](https://www.python.org/)
+
+Existem outras ferramentas envolvidas, mas essas são as principais que você precisa conhecer para entender o projeto.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,6 +167,58 @@ graph TD
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Implementação
+
+## Pré-requisitos
+
+Antes de começar, você precisa ter instalado em sua máquina:
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
+- [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- [Python](https://www.python.org/downloads/)
+- [Pip](https://pip.pypa.io/en/stable/installation/)
+
+## Passo a Passo
+
+1. **Crie um Cluster Kubernetes com Kind**
+
+```bash
+task kind:create
+```
+
+2. **Instale o Metacontroller**
+
+```bash
+task addons:metacontroller
+```
+
+3. **Crie um Custom Resource Definition (CRD)**
+
+```bash
+kubectl apply -f manifests/crd.yaml
+```
+
+4. **Crie um Webhook em Python**
+
+5. **Crie um CompositeController**
+
+```bash
+kubectl apply -f manifests/controller.yaml
+```
+
+6. **Teste o Controlador Personalizado**
+
+```bash
+
+```
+
+7. **Limpeza**
+
+```bash
+
+```
 
 # Conclusão
 
