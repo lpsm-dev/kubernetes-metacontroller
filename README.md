@@ -44,7 +44,7 @@ Minha proposta é colocar a mão na massa e documentar todo esse processo, desde
 
 ## Contexto e Motivação
 
-O Kubernetes é uma plataforma incrível por inúmeras razões. Ele não só gerencia e organiza cargas de trabalho de forma excepcional (desde que você não faça merda kkkk), mas sua verdadeira força reside na flexibilidade. Com essa característica intrínseca, o Kubernete pode ser ampliado e personalizado de forma praticamente infinita, permitindo que você o adapte exatamente de acordo com as suas necessidades. É essa capacidade de moldar o Kubernetes para atender a requisitos únicos que o torna uma ferramenta indispensável para qualquer empresa e que me motivo a explorar e compartilhar esse conhecimento.
+O Kubernetes é uma plataforma incrível por inúmeras razões. Ele não só gerencia e organiza cargas de trabalho de forma excepcional (desde que você não faça merda kkkk), mas sua verdadeira força reside na flexibilidade. Com essa característica intrínseca, o Kubernetes pode ser ampliado e personalizado de forma praticamente infinita, permitindo que você o adapte exatamente de acordo com as suas necessidades. É essa capacidade de moldar o Kubernetes para atender a requisitos únicos que o torna uma ferramenta indispensável para qualquer empresa e que me motivo a explorar e compartilhar esse conhecimento.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
