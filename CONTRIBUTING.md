@@ -23,6 +23,8 @@ Obrigado por considerar contribuir com este projeto! Seguir nossas diretrizes fa
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Práticas](#pr%C3%A1ticas)
+  - [Geral](#geral)
+  - [Comunicação](#comunica%C3%A7%C3%A3o)
 - [Setup](#setup)
   - [DevBox](#devbox)
   - [Direnv](#direnv)
