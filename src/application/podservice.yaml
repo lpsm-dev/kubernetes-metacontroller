@@ -3,9 +3,9 @@ apiVersion: homelabz.com.br/v1
 kind: PodService
 metadata:
   name: nginx
+  namespace: pocs-kubernetes-metacontroller
 spec:
   image: nginx:stable-alpine
-  port: 80
   cpuReq: 50m
   cpuLimit: 100m
   memReq: 64Mi
@@ -14,7 +14,8 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: podservice-ingress
+  name: ingress
+  namespace: pocs-kubernetes-metacontroller
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
