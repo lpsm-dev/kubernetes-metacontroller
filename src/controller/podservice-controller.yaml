@@ -14,24 +14,24 @@ spec:
         app: podservice-controller
     spec:
       containers:
-      - name: podservice-controller
-        image: python:3
-        imagePullPolicy: Always
-        command: ["python3", "/hooks/sync.py"]
-        resources:
-          limits:
-            cpu: 200m
-            memory: 200Mi
-          requests:
-            cpu: 100m
-            memory: 100Mi
-        volumeMounts:
-        - name: hooks
-          mountPath: /hooks
+        - name: podservice-controller
+          image: python:3
+          imagePullPolicy: Always
+          command: ["python3", "/hooks/sync.py"]
+          resources:
+            limits:
+              cpu: 200m
+              memory: 200Mi
+            requests:
+              cpu: 100m
+              memory: 100Mi
+          volumeMounts:
+            - name: hooks
+              mountPath: /hooks
       volumes:
-      - name: hooks
-        configMap:
-          name: podservice-controller
+        - name: hooks
+          configMap:
+            name: podservice-controller
 ---
 apiVersion: v1
 kind: Service
@@ -39,6 +39,6 @@ metadata:
   name: podservice-controller
 spec:
   ports:
-  - port: 80
+    - port: 80
   selector:
     app: podservice-controller

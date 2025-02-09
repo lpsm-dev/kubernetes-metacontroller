@@ -2,7 +2,11 @@
 apiVersion: homelabz.com.br/v1
 kind: PodService
 metadata:
-  name: nginx-podservice
+  name: nginx
 spec:
-  image: nginx:latest
+  image: nginx:stable-alpine
   port: 80
+  cpuReq: 50m
+  cpuLimit: 100m
+  memReq: 64Mi
+  memLimit: 128m

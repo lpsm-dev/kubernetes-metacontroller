@@ -181,6 +181,8 @@ Antes de começar, você precisa ter instalado em sua máquina:
 
 ## Passo a Passo
 
+Uma vez que temos o código do controlador personalizado, podemos seguir os passos abaixo para testá-lo:
+
 1. **Crie um Cluster Kubernetes com Kind**
 
 ```bash
@@ -199,8 +201,6 @@ task addons:metacontroller
 kubectl apply -f manifests/crd.yaml
 ```
 
-4. **Crie um Webhook em Python**
-
 5. **Crie um CompositeController**
 
 ```bash
@@ -210,7 +210,12 @@ kubectl apply -f manifests/controller.yaml
 6. **Teste o Controlador Personalizado**
 
 ```bash
-
+kubectl create ns pocs-kubernetes-metacontroller
+kubectl -n pocs-kubernetes-metacontroller create configmap podservice-controller --from-file=./src/sync.py
+kubectl apply -n pocs-kubernetes-metacontroller -f ./src/controller/podservice-controller.yaml
+kubectl get pods -n pocs-kubernetes-metacontroller
+kubectl apply -n pocs-kubernetes-metacontroller -f ./src/application/podservice.yaml
+kubectl get pods,svc -n pocs-kubernetes-metacontroller
 ```
 
 7. **Limpeza**
