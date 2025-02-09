@@ -135,24 +135,22 @@ A partir de agora, vou de fato ir para a implementação prática do controlador
 A arquitetura do projeto é:
 
 ```mermaid
-graph TD;
-A[Custom Resource (CR)] -->|Detectado pelo Metacontroller| B[Webhook (sync)]
-B -->|Recebe requisição com estado atual| C[Processa lógica no Webhook]
-C -->|Define estado desejado| D{Quais recursos devem ser gerenciados?}
+graph TD
+    A["Custom Resource (CR)"] -->|Detectado pelo Metacontroller| B["Webhook (sync)"]
+    B -->|Recebe requisição com estado atual| C["Processa lógica no Webhook"]
+    C -->|Define estado desejado| D{"Quais recursos devem ser gerenciados?"}
 
-D -->|Criar Pod| E[Definir Pod com imagem, portas e recursos]
-D -->|Criar Service| F[Definir Service com porta e selector]
+    D -->|Criar Pod| E["Definir Pod com imagem, portas e recursos"]
+    D -->|Criar Service| F["Definir Service com porta e selector"]
 
-E -->|Adicionar ao estado desejado| G[Retorna resposta JSON para o Metacontroller]
-F -->|Adicionar ao estado desejado| G
+    E -->|Adicionar ao estado desejado| G["Retorna resposta JSON para o Metacontroller"]
+    F -->|Adicionar ao estado desejado| G
 
-G -->|Aplica mudanças| H[Kubernetes cria ou atualiza recursos]
-H -->|Estado atualizado| I[Aplicação rodando conforme especificado]
+    G -->|Aplica mudanças| H["Kubernetes cria ou atualiza recursos"]
+    H -->|Estado atualizado| I["Aplicação rodando conforme especificado"]
 
-style B fill:#f9f,stroke:#333,stroke-width:2px;
-style C fill:#fdd,stroke:#333,stroke-width:2px;
-style D fill:#ff9,stroke:#333,stroke-width:2px;
-style H fill:#bff,stroke:#333,stroke-width:2px;
+    classDef highlight fill:#f9f,stroke:#333,stroke-width:2px;
+    class B,C,D,H highlight;
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
