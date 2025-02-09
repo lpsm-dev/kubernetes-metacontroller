@@ -210,12 +210,13 @@ kubectl apply -f manifests/controller.yaml
 6. **Teste o Controlador Personalizado**
 
 ```bash
-kubectl create ns pocs-kubernetes-metacontroller
-kubectl -n pocs-kubernetes-metacontroller create configmap podservice-controller --from-file=./src/sync.py
-kubectl apply -n pocs-kubernetes-metacontroller -f ./src/controller/podservice-controller.yaml
-kubectl get pods -n pocs-kubernetes-metacontroller
-kubectl apply -n pocs-kubernetes-metacontroller -f ./src/application/podservice.yaml
-kubectl get pods,svc -n pocs-kubernetes-metacontroller
+NAMESPACE="pocs-kubernetes-metacontroller"
+kubectl create ns $NAMESPACE
+kubectl create configmap -n $NAMESPACE podservice-controller --from-file=./src/sync.py
+kubectl apply -n $NAMESPACE -f ./src/controller/podservice-controller.yaml
+kubectl get pods -n $NAMESPACE
+kubectl apply -n $NAMESPACE -f ./src/application/podservice.yaml
+kubectl get pods,svc -n $NAMESPACE
 ```
 
 7. **Limpeza**
