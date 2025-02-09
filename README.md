@@ -1,17 +1,25 @@
 <!-- BEGIN_DOCS -->
-<a name="readme-top"></a>
-
 <div align="center">
+
+<a name="readme-top"></a>
 
 <img alt="header" src="https://github.com/lpsm-dev/lpsm-dev/blob/02421b0d81397fe8df3ab40e21752b8d0bb9105f/.github/assets/kubernetes.gif" width="300"/>
 
-<h1>Kubernetes Metacontroller</h1>
+## Kubernetes Metacontroller
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://www.conventionalcommits.org/en/v1.0.0/)
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
 [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
 
-Uma demonstração simples de como criar recursos personalizados no Kubernetes com o Metacontroller.
+Hello Human 👽!
+
+Bem-vindo ao meu repositório 👋
+
+Aqui, realizo uma demonstração simples de como criar recursos personalizados no Kubernetes com o Metacontroller.
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://www.conventionalcommits.org/en/v1.0.0/)
+[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
+[![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
 
 </div>
 

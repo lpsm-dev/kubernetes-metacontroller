@@ -20,24 +20,24 @@ tasks:
     silent: true
     aliases: [commands]
     cmds:
-    - task --list
+      - task --list
 
   clear:
     cmds:
-    - sleep 0.1 && {{.CLEAR}}
+      - sleep 0.1 && {{.CLEAR}}
 
   gitleaks:
     desc: Detect secrets in git repo using gitleaks
     preconditions:
-    - sh: which gitleaks
-      msg: gitleaks {{.PATH_ERROR}}
+      - sh: which gitleaks
+        msg: gitleaks {{.PATH_ERROR}}
     cmds:
-    - gitleaks detect --source={{.ROOT_DIR}} --verbose
+      - gitleaks detect --source={{.ROOT_DIR}} --verbose
 
   yamllint:
     desc: Run a linter for all YAML files
     preconditions:
-    - sh: which yamllint
-      msg: yamllint {{.PATH_ERROR}}
+      - sh: which yamllint
+        msg: yamllint {{.PATH_ERROR}}
     cmds:
-    - yamllint --config-file={{.ROOT_DIR}}/.github/config/.yamllint.yaml .
+      - yamllint --config-file={{.ROOT_DIR}}/.github/config/.yamllint.yaml .
