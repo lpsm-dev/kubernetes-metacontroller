@@ -130,7 +130,7 @@ Modifica objetos existentes ao adicionar novos recursos sem alterar sua definiç
 
 # Arquitetura
 
-A partir de agora, vamos explorar a implementação prática de um controlador personalizado no Kubernetes usando o Metacontroller. Para isso, vamos criar um exemplo simples de um controlador que gerencia um recurso personalizado chamado `PodService`, que cria um Pod e um Service associado.
+A partir de agora, vou de fato ir para a implementação prática do controlador personalizado usando o Metacontroller. Para isso, vamos criar um exemplo simples de um controlador que gerencia um recurso personalizado chamado `PodService`. Esse recurso é uma abstraction que combina um Pod e um Service, permitindo que você defina ambos em um único objeto.
 
 A arquitetura do projeto é:
 
