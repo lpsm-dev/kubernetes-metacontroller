@@ -177,8 +177,7 @@ Antes de começar, você precisa ter instalado em sua máquina:
 - [Docker](https://docs.docker.com/get-docker/)
 - [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-- [Python](https://www.python.org/downloads/)
-- [Pip](https://pip.pypa.io/en/stable/installation/)
+- [Task](https://taskfile.dev/#/installation)
 
 ## Passo a Passo
 
