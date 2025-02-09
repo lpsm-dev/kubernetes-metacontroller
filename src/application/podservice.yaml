@@ -10,3 +10,22 @@ spec:
   cpuLimit: 100m
   memReq: 64Mi
   memLimit: 128m
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: podservice-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - host: podservice.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: nginx
+                port:
+                  number: 80

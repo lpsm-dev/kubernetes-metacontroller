@@ -10,7 +10,7 @@ class Controller(BaseHTTPRequestHandler):
         }
 
         image = parent.get("spec", {}).get("image", "nginx:latest")
-        port = parent.get("spec", {}).get("port", "80")
+        port = parent.get("spec", {}).get("port", 80)
         cpu_limit = parent.get("spec", {}).get("cpuLimit", "50m")
         mem_limit = parent.get("spec", {}).get("memLimit", "64Mi")
         cpu_req = parent.get("spec", {}).get("cpuReq", "10m")

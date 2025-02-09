@@ -216,10 +216,25 @@ kubectl create configmap -n $NAMESPACE podservice-controller --from-file=./src/s
 kubectl apply -n $NAMESPACE -f ./src/controller/podservice-controller.yaml
 kubectl get pods -n $NAMESPACE
 kubectl apply -n $NAMESPACE -f ./src/application/podservice.yaml
-kubectl get pods,svc -n $NAMESPACE
+kubectl get pods,svc,ingress -n $NAMESPACE
 ```
 
-7. **Limpeza**
+7. **Adicionando IP do Service no /etc/hosts**
+
+> [!WARNING]
+> A função `addhost` é específica do meu ambiente, você deve adicionar manualmente o IP do Service no `/etc/hosts`.
+
+```bash
+addhost 127.0.0.1 podservice.local
+```
+
+8. **Testar o acesso ao serviço**
+
+```bash
+curl http://podservice.local
+```
+
+9. **Limpeza do Ambiente**
 
 ```bash
 task kind:destroy
