@@ -7,19 +7,16 @@
 
 ## Kubernetes Metacontroller
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://www.conventionalcommits.org/en/v1.0.0/)
-[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
-[![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
-
 Hello Human 👽!
 
 Bem-vindo ao meu repositório 👋
 
-Aqui, realizo uma demonstração simples de como criar recursos personalizados no Kubernetes com o Metacontroller.
-
 </div>
 
-# Summary
+# Sumário
+
+<details>
+  <summary><strong>Expandir</strong></summary>
 
 - [Summary](#summary)
 - [Introduction](#introduction)
@@ -30,13 +27,23 @@ Aqui, realizo uma demonstração simples de como criar recursos personalizados n
 - [Troubleshooting](#troubleshooting)
 - [Show your support](#show-your-support)
 
-# Introduction
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-O Kubernetes é uma plataforma incrível por inúmeras razões. Ele não só gerencia e organiza cargas de trabalho em contêineres distribuídas por diversos nós (nodes) em um cluster com maestria, mas sua verdadeira força reside na flexibilidade. O Kubernetes pode ser ampliado e personalizado de formas que oferecem possibilidades praticamente infinitas, permitindo que você adapte a plataforma exatamente às suas necessidades específicas. É essa capacidade de moldar o Kubernetes para atender a requisitos únicos que o torna uma ferramenta indispensável para qualquer empresa.
+</details>
+
+# Visão Geral
+
+## Objetivo
+
+Esse repositório apresenta um exemplo prático de como eu criei um controlador personalizado no Kubernetes utilizando a ferramenta Metacontroller. Minha proposta foi colocar a mão na massa criando esse controlador e documentar o processo para facilitar a compreensão de como o Metacontroller funciona e como ele pode ser utilizado para estender as funcionalidades do Kubernetes.
+
+## Contexto e Motivação
+
+O Kubernetes é uma plataforma incrível por inúmeras razões. Ele não só gerencia e organiza cargas de trabalho por diversos nós (nodes), mas sua verdadeira força reside na flexibilidade. Com essa característica intrínseca, o Kubernete pode ser ampliado e personalizado de forma praticamente infinita, permitindo que você o adapte exatamente de acordo com as suas necessidades. É essa capacidade de moldar o Kubernetes para atender a requisitos únicos que o torna uma ferramenta indispensável para qualquer empresa e que me motivo a explorar e compartilhar esse conhecimento.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Overview
+# Metacontroller
 
 O Metacontroller é uma extensão do Kubernetes que simplifica a criação de controladores personalizados. Com o Metacontroller, você pode implementar a lógica do controlador como serviços web. Esses serviços são chamados pelo Metacontroller para garantir que o estado desejado dos recursos no cluster esteja sempre sincronizado com o que foi definido pelo usuário.
 
