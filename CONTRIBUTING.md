@@ -222,6 +222,8 @@ feat(login): add route
 - Não coloque a primeira letra em maiúscula.
 - Não coloque ponto (.) no final.
 
+Existem mais opçõe, porém essas são as mais comuns. Para mais detalhes, consulte a [documentação oficial](https://www.conventionalcommits.org/en/v1.0.0/).
+
 > [!NOTE]
 > Cada tipo de commit tem um efeito sobre a próxima release que você for lançar.
 
@@ -229,7 +231,7 @@ feat(login): add route
 
 # MR Process
 
-Ao criar um MR (merge request), é uma boa ideia definir o seu título seguindo a mesma convenção utilizada nas mensagens de commit. Dessa forma, se seu MR for sofrer um **squash** após a mesclagem, o maintainer poderá usar o título como a mensagem final do commit, criando um histórico formato, enxuto e linear.
+Ao criar um Merge Request (MR), recomenda-se definir o título conforme a mesma convenção adotada para mensagens de commit. Isso garante que, em caso de **squash merge**, o título do MR possa ser diretamente utilizado como a mensagem final do commit, preservando a padronização do histórico. Essa prática contribui para um log de alterações mais estruturado, conciso e linear, facilitando a rastreabilidade e automação de releases em fluxos de desenvolvimento que seguem padrões como **Conventional Commits**.
 
 ## Steps
 
@@ -259,8 +261,8 @@ git push origin sua-nova-branch
 
 - Abra uma solicitação de MR:
 
-  - No GitLab, navegue até o repositório e abra uma nova Merge Request da sua branch para a branch de produção `main`.
-  - Adicione uma descrição clara do que foi feito e qualquer informação relevante para a revisão.
+  - Navegue até o repositório e abra uma nova Merge Request da sua branch para a branch de produção `main`.
+  - Adicione uma descrição clara do que foi feito e qualquer informação relevante para o processo de review.
   - Defina o título usando commits convencionais.
   - Marque a opção de remover a branch de origem após a mesclagem.
   - Marque a opção para squash dos commits.
@@ -278,7 +280,7 @@ git push origin sua-nova-branch
 Seguir este processo garante que as alterações sejam revisadas adequadamente e que o código de produção permaneça estável e com qualidade.
 
 > [!NOTE]
-> Se você tiver vários commits em seu PR que resolvem o mesmo problema, **squash os commits**.
+> Se você tiver vários commits em seu PR, é recomendável usar a opção de squash para manter um histórico limpo e organizado.
 
 ## Reviewing
 
