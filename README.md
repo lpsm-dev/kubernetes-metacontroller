@@ -48,6 +48,17 @@ O Kubernetes é uma plataforma incrível por inúmeras razões. Ele não só ger
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# Tecnologias
+
+Para a implementação desse projeto, foram utilizadas as seguintes tecnologias:
+
+- [Kubernetes](https://kubernetes.io/)
+- [Kind](https://kind.sigs.k8s.io/)
+- [Metacontroller](https://metacontroller.github.io/metacontroller/intro.html)
+- [Python](https://www.python.org/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Metacontroller
 
 O Metacontroller é uma extensão do Kubernetes que simplifica a criação de controladores personalizados. Com o Metacontroller, você pode implementar a lógica do controlador como serviços web. Esses serviços são chamados pelo Metacontroller para garantir que o estado desejado dos recursos no cluster esteja sempre sincronizado com o que foi definido pelo usuário.
