@@ -40,7 +40,7 @@ Pronto para derrubar um cluster Kubernetes? 🤡 hahaha
 
 Deixando as brincadeiras de lado, nesse repositório apresento a vocês um exemplo prático de como eu criei um controlador personalizado no Kubernetes utilizando a ferramenta [Metacontroller](https://github.com/metacontroller/metacontroller).
 
-Minha proposta foi colocar a mão e documentar o processo para facilitar a compreensão de como o Metacontroller funciona.
+Minha proposta é colocar a mão na massa e documentar todo esse processo, desde o conceitual até a implementação prática, para que você possa entender como funciona e como pode ser útil para o seu dia a dia.
 
 ## Contexto e Motivação
 
