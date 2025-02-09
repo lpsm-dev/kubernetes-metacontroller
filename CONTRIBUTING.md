@@ -222,10 +222,10 @@ feat(login): add route
 - Não coloque a primeira letra em maiúscula.
 - Não coloque ponto (.) no final.
 
-Existem mais opçõe, porém essas são as mais comuns. Para mais detalhes, consulte a [documentação oficial](https://www.conventionalcommits.org/en/v1.0.0/).
-
 > [!NOTE]
 > Cada tipo de commit tem um efeito sobre a próxima release que você for lançar.
+
+Existem mais opções, porém essas são as mais comuns. Para mais detalhes, consulte a [documentação oficial](https://www.conventionalcommits.org/en/v1.0.0/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
