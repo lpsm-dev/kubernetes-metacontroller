@@ -303,7 +303,7 @@ Esse projeto segue a especificação [SemVer](https://semver.org/). Ou seja, uti
 
 Nós usamos o [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) para automatizar o processo de versionamento. Ele analisa os commits desde a última versão e determina automaticamente o próximo número da versão com base nas alterações feitas. Isso garante que as versões sejam consistentes e sigam as regras do SemVer.
 
-Vale ressaltar que o Semantic Release é acionado automaticamente quando um MR é mesclado na branch `main`. Portanto, é importante seguir as convenções de commit para garantir que as versões sejam geradas corretamente.
+Vale ressaltar que o Semantic Release é acionado automaticamente quando um MR é mesclado na branch `main` ou quando existe um commit direto na branch `main`. Portanto, é importante seguir as convenções de commit para garantir que as versões sejam geradas corretamente.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- END_DOCS -->
