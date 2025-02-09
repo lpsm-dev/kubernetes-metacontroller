@@ -75,7 +75,7 @@ Controladores são loops que observam o estado do cluster através da API do Kub
 
 Os **Custom Resource Definitions (CRDs)** permitem que os usuários definam novos tipos de recursos no Kubernetes, expandindo sua API sem modificar o código-fonte do Kubernetes. Eles são a base para a criação de controladores personalizados, pois possibilitam a adição de novos objetos específicos ao cluster.
 
-Como ele funciona?
+**Como ele funciona?**
 
 - Você cria um CRD para definir um novo tipo de recurso (exemplo: `MyCustomResource`).
 - O Kubernetes passa a reconhecer esse recurso e permite que ele seja gerenciado via `kubectl`, API e operadores.
@@ -103,7 +103,7 @@ spec:
 
 O **Metacontroller** é um componente que simplifica a implementação de **controladores personalizados** sem exigir o desenvolvimento completo de um controlador em `Go` usando o `client-go`. Em vez disso, ele permite que os desenvolvedores criem controladores como **webhooks**, podendo ser escritos em qualquer linguagem que suporte HTTP, como `Python`, `Node.js` ou `Bash`.
 
-Como ele funciona?
+**Como ele funciona?**
 
 - O Metacontroller monitora recursos no Kubernetes.
 - Quando há mudanças, ele aciona um webhook definido pelo usuário.
