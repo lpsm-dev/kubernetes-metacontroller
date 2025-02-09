@@ -110,7 +110,7 @@ O **Metacontroller** é um componente que simplifica a implementação de **cont
 - O webhook responde informando como o estado desejado deve ser ajustado.
 - O Metacontroller aplica essas mudanças automaticamente no cluster.
 
-Entre seus principais benefícios, podemos destacar:
+**Entre seus principais benefícios, podemos destacar**:
 
 - Reduz a complexidade do desenvolvimento de controladores personalizados
 - Permite o uso de qualquer linguagem para a lógica de controle
