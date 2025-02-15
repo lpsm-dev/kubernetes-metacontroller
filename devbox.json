@@ -4,7 +4,7 @@
     "direnv@latest",
     "gitleaks@latest",
     "go-task@latest",
-    "kind@latest",
+    "kind@0.26.0",
     "kubectl@latest",
     "pre-commit@latest",
     "yamllint@latest"
