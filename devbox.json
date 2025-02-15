@@ -7,7 +7,7 @@
     "kind@latest",
     "kubectl@latest",
     "pre-commit@latest",
-    "yamllint@latest"
+    "yamllint@1.35.1"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
