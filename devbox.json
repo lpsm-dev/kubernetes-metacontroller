@@ -5,7 +5,7 @@
     "gitleaks@8.23.3",
     "go-task@3.41.0",
     "kind@0.26.0",
-    "kubectl@1.32.1",
+    "kubectl@1.32.2",
     "pre-commit@4.0.1",
     "yamllint@1.35.1"
   ],
