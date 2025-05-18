@@ -3,7 +3,7 @@
   "packages": [
     "direnv@2.35.0",
     "gitleaks@8.24.0",
-    "go-task@3.41.0",
+    "go-task@3.43.3",
     "kind@0.27.0",
     "kubectl@1.33.0",
     "pre-commit@4.0.1",
